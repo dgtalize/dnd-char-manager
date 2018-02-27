@@ -1,0 +1,219 @@
+{
+  "armor_spikes" : {
+    "checkPenalty" : 0,
+    "cost" : "+50 gp",
+    "name" : "Armor spikes",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 10
+  },
+  "banded_mail" : {
+    "arcaneSpellFailure" : 35,
+    "armorBonus" : 6,
+    "checkPenalty" : -6,
+    "cost" : "250 gp",
+    "maxDexBonus" : 1,
+    "name" : "Banded mail",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 35
+  },
+  "breastplate" : {
+    "arcaneSpellFailure" : 25,
+    "armorBonus" : 5,
+    "checkPenalty" : -4,
+    "cost" : "200 gp",
+    "maxDexBonus" : 3,
+    "name" : "Breastplate",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 30
+  },
+  "buckler" : {
+    "arcaneSpellFailure" : 5,
+    "armorBonus" : 1,
+    "checkPenalty" : -1,
+    "cost" : "15 gp",
+    "name" : "Buckler",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 5
+  },
+  "chain_shirt" : {
+    "arcaneSpellFailure" : 20,
+    "armorBonus" : 4,
+    "checkPenalty" : -2,
+    "cost" : "100 gp",
+    "maxDexBonus" : 4,
+    "name" : "Chain shirt",
+    "speed_20" : "20 ft",
+    "speed_30" : "30 ft",
+    "weight" : 25
+  },
+  "chainmail" : {
+    "arcaneSpellFailure" : 30,
+    "armorBonus" : 5,
+    "checkPenalty" : -5,
+    "cost" : "150 gp",
+    "maxDexBonus" : 2,
+    "name" : "Chainmail",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 40
+  },
+  "full_plate" : {
+    "arcaneSpellFailure" : 35,
+    "armorBonus" : 8,
+    "checkPenalty" : -6,
+    "cost" : "1500 gp",
+    "maxDexBonus" : 1,
+    "name" : "Full plate",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 50
+  },
+  "gauntlet_locked" : {
+    "checkPenalty" : 0,
+    "cost" : "8 gp",
+    "name" : "Gauntlet, locked",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 5
+  },
+  "half-plate" : {
+    "arcaneSpellFailure" : 40,
+    "armorBonus" : 7,
+    "checkPenalty" : -7,
+    "cost" : "600 gp",
+    "maxDexBonus" : 0,
+    "name" : "Half-plate",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 50
+  },
+  "hide" : {
+    "arcaneSpellFailure" : 20,
+    "armorBonus" : 3,
+    "checkPenalty" : -3,
+    "cost" : "15 gp",
+    "maxDexBonus" : 4,
+    "name" : "Hide",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 25
+  },
+  "leather" : {
+    "arcaneSpellFailure" : 10,
+    "armorBonus" : 2,
+    "checkPenalty" : 0,
+    "cost" : "10 gp",
+    "maxDexBonus" : 6,
+    "name" : "Leather",
+    "speed_20" : "20 ft",
+    "speed_30" : "30 ft",
+    "weight" : 15
+  },
+  "padded" : {
+    "arcaneSpellFailure" : 5,
+    "armorBonus" : 1,
+    "checkPenalty" : 0,
+    "cost" : "5 gp",
+    "maxDexBonus" : 8,
+    "name" : "Padded",
+    "speed_20" : "20 ft",
+    "speed_30" : "30 ft",
+    "weight" : 10
+  },
+  "scale_mail" : {
+    "arcaneSpellFailure" : 25,
+    "armorBonus" : 4,
+    "checkPenalty" : -4,
+    "cost" : "50 gp",
+    "maxDexBonus" : 3,
+    "name" : "Scale mail",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 30
+  },
+  "shield_heavy_steel" : {
+    "arcaneSpellFailure" : 15,
+    "armorBonus" : 2,
+    "checkPenalty" : -2,
+    "cost" : "20 gp",
+    "name" : "Shield, heavy steel",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 15
+  },
+  "shield_heavy_wooden" : {
+    "arcaneSpellFailure" : 15,
+    "armorBonus" : 2,
+    "checkPenalty" : -2,
+    "cost" : "7 gp",
+    "name" : "Shield, heavy wooden",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 10
+  },
+  "shield_light_steel" : {
+    "arcaneSpellFailure" : 5,
+    "armorBonus" : 1,
+    "checkPenalty" : -1,
+    "cost" : "9 gp",
+    "name" : "Shield, light steel",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 6
+  },
+  "shield_light_wooden" : {
+    "arcaneSpellFailure" : 5,
+    "armorBonus" : 1,
+    "checkPenalty" : -1,
+    "cost" : "3 gp",
+    "name" : "Shield, light wooden",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 5
+  },
+  "shield_spikes light or heavy" : {
+    "checkPenalty" : 0,
+    "cost" : "+10 gp",
+    "name" : "Shield Spikes, Light or Heavy",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 5
+  },
+  "shield_tower" : {
+    "arcaneSpellFailure" : 50,
+    "armorBonus" : 4,
+    "checkPenalty" : -10,
+    "cost" : "30 gp",
+    "maxDexBonus" : 2,
+    "name" : "Shield, tower",
+    "speed_20" : "",
+    "speed_30" : "",
+    "weight" : 45
+  },
+  "splint_mail" : {
+    "arcaneSpellFailure" : 40,
+    "armorBonus" : 6,
+    "checkPenalty" : -7,
+    "cost" : "200 gp",
+    "maxDexBonus" : 0,
+    "name" : "Splint mail",
+    "speed_20" : "15 ft",
+    "speed_30" : "20 ft",
+    "weight" : 45
+  },
+  "studded_leather" : {
+    "arcaneSpellFailure" : 15,
+    "armorBonus" : 3,
+    "checkPenalty" : -1,
+    "cost" : "25 gp",
+    "maxDexBonus" : 5,
+    "name" : "Studded leather",
+    "speed_20" : "20 ft",
+    "speed_30" : "30 ft",
+    "weight" : 20
+  }
+}

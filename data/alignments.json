@@ -1,0 +1,47 @@
+{
+  "lawful_good": {
+    "name": "Lawful good",
+    "law": "lawful",
+    "good": "good"
+  },
+  "neutral_good": {
+    "name": "Neutral good",
+    "law": "neutral",
+    "good": "good"
+  },
+  "chaotic_good": {
+    "name": "Chaotic good",
+    "law": "chaotic",
+    "good": "good"
+  },
+  "lawful_neutral": {
+    "name": "Lawful neutral",
+    "law": "lawful",
+    "good": "neutral"
+  },
+  "neutral": {
+    "name": "(True) neutral",
+    "law": "neutral",
+    "good": "neutral"
+  },
+  "chaotic_neutral": {
+    "name": "Chaotic neutral",
+    "law": "chaotic",
+    "good": "neutral"
+  },
+  "lawful_evil": {
+    "name": "Lawful evil",
+    "law": "lawful",
+    "good": "evil"
+  },
+  "neutral_evil": {
+    "name": "Neutral evil",
+    "law": "neutral",
+    "good": "evil"
+  },
+  "chaotic_evil": {
+    "name": "Chaotic evil",
+    "law": "chaotic",
+    "good": "evil"
+  }
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/classIndicatorTextView"
+            style="@style/Badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="C"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/skillTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Skill XXX" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/skillTextView">
+
+            <TextView
+                android:id="@+id/abilityModifierTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                tools:text="99" />
+
+            <EditText
+                android:id="@+id/rankEditText"
+                style="@style/PointsInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ems="3"
+                android:hint="@string/rank"
+                android:inputType="numberSigned"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                tools:text="9" />
+
+            <EditText
+                android:id="@+id/miscModifierEditText"
+                style="@style/PointsInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ems="3"
+                android:hint="@string/misc_modifier"
+                android:inputType="numberSigned"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                tools:text="9" />
+
+            <TextView
+                android:id="@+id/modifierTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textStyle="bold"
+                tools:text="+99" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

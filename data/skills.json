@@ -1,0 +1,444 @@
+{
+  "appraise" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Appraise",
+    "psi" : false,
+    "trained" : false
+  },
+  "autohypnosis" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Autohypnosis",
+    "psi" : false,
+    "trained" : true
+  },
+  "balance" : {
+    "armorCheck" : true,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Balance",
+    "psi" : false,
+    "trained" : false
+  },
+  "bluff" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Bluff",
+    "psi" : false,
+    "synergy" : {
+      "diplomacy" : true,
+      "disguise" : true,
+      "intimidate" : true,
+      "sleight_of_hand" : true
+    },
+    "trained" : false
+  },
+  "climb" : {
+    "armorCheck" : true,
+    "key" : "str",
+    "magic" : false,
+    "name" : "Climb",
+    "psi" : false,
+    "trained" : false
+  },
+  "concentration" : {
+    "armorCheck" : false,
+    "key" : "con",
+    "magic" : true,
+    "name" : "Concentration",
+    "psi" : true,
+    "synergy" : {
+      "autohypnosis" : true
+    },
+    "trained" : false
+  },
+  "control_shape" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Control Shape",
+    "psi" : false,
+    "trained" : false
+  },
+  "craft" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Craft",
+    "psi" : false,
+    "synergy" : {
+      "appraise" : true
+    },
+    "trained" : false
+  },
+  "decipher_script" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Decipher Script",
+    "psi" : false,
+    "synergy" : {
+      "use_magic_device" : true
+    },
+    "trained" : true
+  },
+  "diplomacy" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Diplomacy",
+    "psi" : false,
+    "trained" : false
+  },
+  "disable_device" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Disable Device",
+    "psi" : false,
+    "trained" : true
+  },
+  "disguise" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Disguise",
+    "psi" : false,
+    "trained" : false
+  },
+  "escape_artist" : {
+    "armorCheck" : true,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Escape Artist",
+    "psi" : false,
+    "synergy" : {
+      "use_rope" : true
+    },
+    "trained" : false
+  },
+  "forgery" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Forgery",
+    "psi" : false,
+    "trained" : false
+  },
+  "gather_information" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Gather Information",
+    "psi" : false,
+    "trained" : false
+  },
+  "handle_animal" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Handle Animal",
+    "psi" : false,
+    "synergy" : {
+      "ride" : true
+    },
+    "trained" : true
+  },
+  "heal" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Heal",
+    "psi" : false,
+    "trained" : false
+  },
+  "hide" : {
+    "armorCheck" : true,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Hide",
+    "psi" : false,
+    "trained" : false
+  },
+  "intimidate" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Intimidate",
+    "psi" : false,
+    "trained" : false
+  },
+  "jump" : {
+    "armorCheck" : true,
+    "key" : "str",
+    "magic" : false,
+    "name" : "Jump",
+    "psi" : false,
+    "synergy" : {
+      "tumble" : true
+    },
+    "trained" : false
+  },
+  "knowledge_arcana" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Arcana)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_architecture_and_engineering" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Architecture and engineering)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_dungeoneering" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Dungeoneering)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_geography" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Geography)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_history" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (History)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_local" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Local)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_nature" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Nature)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_nobility_and_royalty" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (Nobility and royalty)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_religion" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (religion)",
+    "psi" : false,
+    "trained" : true
+  },
+  "knowledge_the_planes" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Knowledge (the Planes)",
+    "psi" : false,
+    "trained" : true
+  },
+  "listen" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Listen",
+    "psi" : false,
+    "trained" : false
+  },
+  "move_silently" : {
+    "armorCheck" : true,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Move Silently",
+    "psi" : false,
+    "trained" : false
+  },
+  "open_lock" : {
+    "armorCheck" : false,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Open Lock",
+    "psi" : false,
+    "trained" : true
+  },
+  "perform" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Perform",
+    "psi" : false,
+    "trained" : false
+  },
+  "profession" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Profession",
+    "psi" : false,
+    "trained" : true
+  },
+  "psicraft" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Psicraft",
+    "psi" : true,
+    "synergy" : {
+      "use_psionic_device" : true
+    },
+    "trained" : true
+  },
+  "ride" : {
+    "armorCheck" : false,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Ride",
+    "psi" : false,
+    "trained" : false
+  },
+  "search" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : false,
+    "name" : "Search",
+    "psi" : false,
+    "synergy" : {
+      "survival" : true
+    },
+    "trained" : false
+  },
+  "sense_motive" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Sense Motive",
+    "psi" : false,
+    "synergy" : {
+      "diplomacy" : true
+    },
+    "trained" : false
+  },
+  "sleight_of_hand" : {
+    "armorCheck" : true,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Sleight of Hand",
+    "psi" : false,
+    "trained" : true
+  },
+  "speak_language" : {
+    "armorCheck" : false,
+    "key" : "",
+    "magic" : false,
+    "name" : "Speak Language",
+    "psi" : false,
+    "trained" : true
+  },
+  "spellcraft" : {
+    "armorCheck" : false,
+    "key" : "int",
+    "magic" : true,
+    "name" : "Spellcraft",
+    "psi" : false,
+    "synergy" : {
+      "use_magic_device" : true
+    },
+    "trained" : true
+  },
+  "spot" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Spot",
+    "psi" : false,
+    "trained" : false
+  },
+  "survival" : {
+    "armorCheck" : false,
+    "key" : "wis",
+    "magic" : false,
+    "name" : "Survival",
+    "psi" : false,
+    "trained" : false
+  },
+  "swim" : {
+    "armorCheck" : true,
+    "key" : "str",
+    "magic" : false,
+    "name" : "Swim",
+    "psi" : false,
+    "trained" : false
+  },
+  "tumble" : {
+    "armorCheck" : true,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Tumble",
+    "psi" : false,
+    "synergy" : {
+      "balance" : true,
+      "jump" : true
+    },
+    "trained" : true
+  },
+  "use_magic_device" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : true,
+    "name" : "Use Magic Device",
+    "psi" : false,
+    "synergy" : {
+      "spellcraft" : true
+    },
+    "trained" : true
+  },
+  "use_psionic_device" : {
+    "armorCheck" : false,
+    "key" : "cha",
+    "magic" : false,
+    "name" : "Use Psionic Device",
+    "psi" : true,
+    "synergy" : {
+      "psicraft" : true
+    },
+    "trained" : true
+  },
+  "use_rope" : {
+    "armorCheck" : false,
+    "key" : "dex",
+    "magic" : false,
+    "name" : "Use Rope",
+    "psi" : false,
+    "synergy" : {
+      "climb" : true,
+      "escape_artist" : true
+    },
+    "trained" : false
+  }
+}

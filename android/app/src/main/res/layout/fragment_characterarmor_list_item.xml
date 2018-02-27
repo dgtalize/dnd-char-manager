@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                tools:text="Some armor" />
+
+            <ImageView
+                android:id="@+id/armorIconTextView"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignBottom="@+id/attackTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/nameTextView"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_shield" />
+
+            <TextView
+                android:id="@+id/armorBonusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameTextView"
+                android:layout_toEndOf="@+id/armorIconTextView"
+                android:layout_toRightOf="@+id/armorIconTextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:text="99" />
+
+            <TextView
+                android:id="@+id/optionsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="&#8942;"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/equippedView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_person_body" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

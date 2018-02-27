@@ -1,0 +1,190 @@
+{
+  "dwarf" : {
+    "age" : [ 40, 125, 188, 250, 450 ],
+    "alignment" : "Lawful",
+    "baseWeight" : [ 130, 100 ],
+    "bonusLanguages" : [ "Gaint", "Gnome", "Goblin", "Orc", "Terran", "Undercommon" ],
+    "favoredclass" : "Fighter",
+    "height" : [ 45, 53, 43, 51 ],
+    "languages" : [ "Dwarven", "Common" ],
+    "name" : "Dwarf",
+    "religion" : [ "Any" ],
+    "size" : "Medium",
+    "speed" : 20,
+    "traits" : {
+      "abilities" : [ "Darkvision 60ft", "Stability", "Weapon Familiarity (Dwarven Urgroshes)", "Stonecunning" ],
+      "misc" : {
+        "Bonus armor class (Giant)" : 4,
+        "Bonus attack roll (Orcs)" : 1,
+        "Bonus attack roll (goblinoid)" : 1,
+        "Bonus saving throw (Magic)" : 2,
+        "Bonus saving throw (Poison)" : 2
+      },
+      "stats" : {
+        "Charisma" : -2,
+        "Constitution" : 2
+      }
+    },
+    "weightModifier" : "2d6"
+  },
+  "elf" : {
+    "age" : [ 110, 175, 263, 350, 750 ],
+    "alignment" : "Good",
+    "baseWeight" : [ 85, 80 ],
+    "bonusLanguages" : [ "Draconic", "Gnoll", "Gnome", "Goblin", "Orc", "Sylvan" ],
+    "favoredclass" : "Wizard",
+    "height" : [ 53, 65, 53, 65 ],
+    "languages" : [ "Elven", "Common" ],
+    "name" : "Elf",
+    "religion" : [ "Any" ],
+    "size" : "Medium",
+    "speed" : 30,
+    "traits" : {
+      "Skills" : {
+        "listen" : 2,
+        "search" : 2,
+        "spot" : 2
+      },
+      "abilities" : [ "Weapon Proficiency (Longsword)", "Weapon Proficiency (Rapier)", "Weapon Proficiency (Longbow)", "Weapon Proficiency (Shortbow)", "Lowlight vision" ],
+      "stats" : {
+        "Constitution" : -2,
+        "Dexterity" : 2
+      }
+    },
+    "weightModifier" : "1d6"
+  },
+  "gnome" : {
+    "age" : [ 40, 100, 150, 200, 500 ],
+    "alignment" : "Good",
+    "baseWeight" : [ 40, 35 ],
+    "bonusLanguages" : [ "Draconic", "Dwarven", "Elven", "Giant", "Goblin", "Orc" ],
+    "favoredclass" : "Bard",
+    "height" : [ 36, 44, 34, 42 ],
+    "languages" : [ "Gnome", "Common" ],
+    "name" : "Gnome",
+    "religion" : [ "Any" ],
+    "size" : "Small",
+    "speed" : 20,
+    "traits" : {
+      "Skills" : {
+        "craft_alchemy" : 2,
+        "listen" : 2
+      },
+      "Spells" : [ "Speak with animals 1/day", "Dancing lights 1/day", "Ghost sound 1/day", "Prestidigitation 1/day" ],
+      "abilities" : [ "Lowlight vision", "Weapon Familiarity (Gnome hooked hammer)" ],
+      "misc" : {
+        "Bonus armor class (Giant)" : 4,
+        "Bonus attack roll (goblinoid)" : 1,
+        "Bonus attack roll (kobold)" : 1,
+        "Bonus difficulty class (Illusion)" : 1,
+        "Bonus saving throw (Illusion)" : 2
+      },
+      "stats" : {
+        "Constitution" : 2,
+        "Strength" : -2
+      }
+    },
+    "weightModifier" : "1"
+  },
+  "half_elf" : {
+    "age" : [ 20, 62, 93, 125, 185 ],
+    "alignment" : "Chaotic",
+    "baseWeight" : [ 100, 80 ],
+    "bonusLanguages" : [ "Any" ],
+    "favoredclass" : "Any",
+    "height" : [ 55, 71, 53, 69 ],
+    "languages" : [ "Elven", "Common" ],
+    "name" : "Half-Elf",
+    "religion" : [ "Any" ],
+    "size" : "Medium",
+    "speed" : 30,
+    "traits" : {
+      "Skills" : {
+        "diplomacy" : 2,
+        "gather_information" : 2,
+        "listen" : 1,
+        "search" : 1,
+        "spot" : 1
+      },
+      "abilities" : [ "Lowlight vision", "Immunity to sleep", "Elven blood" ],
+      "misc" : {
+        "Bonus saving throw (Enchantment)" : 2
+      }
+    },
+    "weightModifier" : "2d4"
+  },
+  "half_orc" : {
+    "age" : [ 14, 30, 45, 60, 80 ],
+    "alignment" : "Chaotic",
+    "baseWeight" : [ 150, 110 ],
+    "bonusLanguages" : [ "Draconic", "Giant", "Gnoll", "Goblin", "Abyssal" ],
+    "favoredclass" : "Barbarian",
+    "height" : [ 58, 82, 53, 77 ],
+    "languages" : [ "Orc", "Common" ],
+    "name" : "Half-Orc",
+    "religion" : [ "Any" ],
+    "size" : "Medium",
+    "speed" : 30,
+    "traits" : {
+      "abilities" : [ "Darkvision 60ft", "Orc blood" ],
+      "stats" : {
+        "Charisma" : -2,
+        "Intelligence" : -2,
+        "Strength" : 2
+      }
+    },
+    "weightModifier" : "2d6"
+  },
+  "halfling" : {
+    "age" : [ 20, 50, 75, 100, 200 ],
+    "alignment" : "Neutral",
+    "baseWeight" : [ 30, 25 ],
+    "bonusLanguages" : [ "Dwarven", "Elven", "Gnome", "Goblin", "Orc" ],
+    "favoredclass" : "Rogue",
+    "height" : [ 32, 40, 30, 38 ],
+    "languages" : [ "Halfling", "Common" ],
+    "name" : "Halfling",
+    "religion" : [ "Any" ],
+    "size" : "Small",
+    "speed" : 20,
+    "traits" : {
+      "Skills" : {
+        "climb" : 2,
+        "jump" : 2,
+        "listen" : 2,
+        "move_silently" : 2
+      },
+      "misc" : {
+        "Bonus attack roll (Slings)" : 1,
+        "Bonus attack roll (Thrown weapons)" : 1,
+        "Bonus saving throw (All)" : 1,
+        "Bonus saving throw (Fear)" : 2
+      },
+      "stats" : {
+        "Dexterity" : 2,
+        "Strength" : -2
+      }
+    },
+    "weightModifier" : "1"
+  },
+  "human" : {
+    "age" : [ 15, 35, 53, 70, 110 ],
+    "alignment" : "Any",
+    "baseWeight" : [ 120, 85 ],
+    "bonusLanguages" : [ "Any" ],
+    "favoredclass" : "Any",
+    "height" : [ 58, 78, 53, 73 ],
+    "languages" : [ "Common" ],
+    "name" : "Human",
+    "religion" : [ "Any" ],
+    "size" : "Medium",
+    "speed" : 30,
+    "traits" : {
+      "misc" : {
+        "Total Feats" : 1,
+        "Total Skill Points" : 1
+      }
+    },
+    "weightModifier" : "2d4"
+  }
+}

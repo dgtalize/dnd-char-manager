@@ -1,0 +1,4555 @@
+{
+  "barbarian" : {
+    "alignment" : "Non-lawful",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "climb" : true,
+      "craft" : true,
+      "handle_animal" : true,
+      "intimidate" : true,
+      "listen" : true,
+      "ride" : true,
+      "survival" : true,
+      "swim" : true
+    },
+    "hitDice" : "d12",
+    "keyStat" : "Constitution",
+    "levels" : {
+      "l1" : {
+        "BAB" : 1,
+        "abilities" : [ "Fast movement", "Illiteracy", "Rage 1/day" ],
+        "fort" : 2,
+        "ref" : 0,
+        "will" : 0
+      },
+      "l10" : {
+        "BAB" : 10,
+        "abilities" : [ "Damage reduction 2/-" ],
+        "fort" : 7,
+        "ref" : 3,
+        "will" : 3
+      },
+      "l11" : {
+        "BAB" : 11,
+        "abilities" : [ "Greater rage" ],
+        "fort" : 7,
+        "ref" : 3,
+        "will" : 3
+      },
+      "l12" : {
+        "BAB" : 12,
+        "abilities" : [ "Rage 4/day", "Trap sense +4" ],
+        "fort" : 8,
+        "ref" : 4,
+        "will" : 4
+      },
+      "l13" : {
+        "BAB" : 13,
+        "abilities" : [ "Damage reduction 3/-" ],
+        "fort" : 8,
+        "ref" : 4,
+        "will" : 4
+      },
+      "l14" : {
+        "BAB" : 14,
+        "abilities" : [ "Indomitable will" ],
+        "fort" : 9,
+        "ref" : 4,
+        "will" : 4
+      },
+      "l15" : {
+        "BAB" : 15,
+        "abilities" : [ "Trap sense +5" ],
+        "fort" : 9,
+        "ref" : 5,
+        "will" : 5
+      },
+      "l16" : {
+        "BAB" : 16,
+        "abilities" : [ "Damage reduction 4/-", "Rage5/day" ],
+        "fort" : 10,
+        "ref" : 5,
+        "will" : 5
+      },
+      "l17" : {
+        "BAB" : 17,
+        "abilities" : [ "Timeless rage" ],
+        "fort" : 10,
+        "ref" : 5,
+        "will" : 5
+      },
+      "l18" : {
+        "BAB" : 18,
+        "abilities" : [ "Trap sense +6" ],
+        "fort" : 11,
+        "ref" : 6,
+        "will" : 6
+      },
+      "l19" : {
+        "BAB" : 19,
+        "abilities" : [ "Damage reduction 5/-" ],
+        "fort" : 11,
+        "ref" : 6,
+        "will" : 6
+      },
+      "l2" : {
+        "BAB" : 2,
+        "abilities" : [ "Uncanny dodge" ],
+        "fort" : 3,
+        "ref" : 0,
+        "will" : 0
+      },
+      "l20" : {
+        "BAB" : 20,
+        "abilities" : [ "Mighty rage", "Rage 6/day" ],
+        "fort" : 12,
+        "ref" : 6,
+        "will" : 6
+      },
+      "l3" : {
+        "BAB" : 3,
+        "abilities" : [ "Trap sense +1" ],
+        "fort" : 3,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l4" : {
+        "BAB" : 4,
+        "abilities" : [ "Rage 2/day" ],
+        "fort" : 4,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l5" : {
+        "BAB" : 5,
+        "abilities" : [ "Improved uncanny dodge" ],
+        "fort" : 4,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l6" : {
+        "BAB" : 6,
+        "abilities" : [ "Trap sense +2" ],
+        "fort" : 5,
+        "ref" : 2,
+        "will" : 2
+      },
+      "l7" : {
+        "BAB" : 7,
+        "abilities" : [ "Damage reduction 1/-" ],
+        "fort" : 5,
+        "ref" : 2,
+        "will" : 2
+      },
+      "l8" : {
+        "BAB" : 8,
+        "abilities" : [ "Rage 3/day" ],
+        "fort" : 6,
+        "ref" : 2,
+        "will" : 2
+      },
+      "l9" : {
+        "BAB" : 9,
+        "abilities" : [ "Trap sense+3" ],
+        "fort" : 6,
+        "ref" : 3,
+        "will" : 3
+      }
+    },
+    "name" : "Barbarian",
+    "psionicClass" : false,
+    "secondaryStat" : "Strength",
+    "skillPoints" : 4,
+    "spellCaster" : false,
+    "weaponArmorProficiency" : [ "Simple weapons", "Martial weapons", "Light armor", "Medium armor", "Shield" ]
+  },
+  "bard" : {
+    "alignment" : "Non-lawful",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "appraise" : true,
+      "balance" : true,
+      "bluff" : true,
+      "climb" : true,
+      "concentration" : true,
+      "craft" : true,
+      "decipher_script" : true,
+      "diplomacy" : true,
+      "disguise" : true,
+      "escape_artist" : true,
+      "gather_information" : true,
+      "hide" : true,
+      "jump" : true,
+      "knowledge" : true,
+      "listen" : true,
+      "move_silently" : true,
+      "perform" : true,
+      "profession" : true,
+      "sense_motive" : true,
+      "sleight_of_hand" : true,
+      "speak_language" : true,
+      "spellcraft" : true,
+      "swim" : true,
+      "tumble" : true,
+      "use_magic_device" : true
+    },
+    "hitDice" : "d6",
+    "keyStat" : "Charisma",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "spellsKnown" : [ 4 ],
+        "abilities" : [ "Bardic music", "Bardic knowledge", "Countersong", "Fascinate", "Inspire courage +1" ],
+        "fort" : 0,
+        "ref" : 2,
+        "spellCasting" : {
+          "l1" : 2
+        },
+        "will" : 2
+      },
+      "l10" : {
+        "BAB" : 7,
+        "spellsKnown" : [ 6, 4, 4, 4, 2 ],
+        "fort" : 3,
+        "ref" : 7,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 2,
+          "l6" : 0
+        },
+        "will" : 7
+      },
+      "l11" : {
+        "BAB" : 8,
+        "spellsKnown" : [ 6, 4, 4, 4, 3 ],
+        "fort" : 3,
+        "ref" : 7,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 1
+        },
+        "will" : 7
+      },
+      "l12" : {
+        "BAB" : 9,
+        "spellsKnown" : [ 6, 4, 4, 4, 3 ],
+        "abilities" : [ "Song of freedom" ],
+        "fort" : 4,
+        "ref" : 8,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 2
+        },
+        "will" : 8
+      },
+      "l13" : {
+        "BAB" : 9,
+        "spellsKnown" : [ 6, 4, 4, 4, 4, 2 ],
+        "fort" : 4,
+        "ref" : 8,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 2,
+          "l6" : 0
+        },
+        "will" : 8
+      },
+      "l14" : {
+        "BAB" : 10,
+        "spellsKnown" : [ 6, 4, 4, 4, 4, 3 ],
+        "abilities" : [ "Inspire courage +3" ],
+        "fort" : 4,
+        "ref" : 9,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 3,
+          "l6" : 1
+        },
+        "will" : 9
+      },
+      "l15" : {
+        "BAB" : 11,
+        "spellsKnown" : [ 6, 4, 4, 4, 4, 3 ],
+        "abilities" : [ "Inspire heroics" ],
+        "fort" : 5,
+        "ref" : 9,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 3,
+          "l6" : 2
+        },
+        "will" : 9
+      },
+      "l16" : {
+        "BAB" : 12,
+        "spellsKnown" : [ 6, 5, 4, 4, 4, 4, 2 ],
+        "fort" : 5,
+        "ref" : 10,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 3,
+          "l6" : 2,
+          "l7" : 0
+        },
+        "will" : 10
+      },
+      "l17" : {
+        "BAB" : 12,
+        "spellsKnown" : [ 6, 5, 5, 4, 4, 4, 3 ],
+        "fort" : 5,
+        "ref" : 10,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 3,
+          "l7" : 1
+        },
+        "will" : 10
+      },
+      "l18" : {
+        "BAB" : 13,
+        "spellsKnown" : [ 6, 5, 5, 5, 4, 4, 3 ],
+        "abilities" : [ "Mass suggestion" ],
+        "fort" : 6,
+        "ref" : 11,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 2
+        },
+        "will" : 11
+      },
+      "l19" : {
+        "BAB" : 14,
+        "spellsKnown" : [ 6, 5, 5, 5, 5, 4, 4 ],
+        "fort" : 6,
+        "ref" : 11,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3
+        },
+        "will" : 11
+      },
+      "l2" : {
+        "BAB" : 1,
+        "spellsKnown" : [ 5, 2 ],
+        "fort" : 0,
+        "ref" : 3,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 0
+        },
+        "will" : 3
+      },
+      "l20" : {
+        "BAB" : 15,
+        "spellsKnown" : [ 6, 5, 5, 5, 5, 5, 4 ],
+        "abilities" : [ "Inspire courage +4" ],
+        "fort" : 6,
+        "ref" : 12,
+        "spellCasting" : {
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 4
+        },
+        "will" : 12
+      },
+      "l3" : {
+        "BAB" : 2,
+        "spellsKnown" : [ 6, 3 ],
+        "abilities" : [ "Inspire competence" ],
+        "fort" : 1,
+        "ref" : 3,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 1
+        },
+        "will" : 3
+      },
+      "l4" : {
+        "BAB" : 3,
+        "spellsKnown" : [ 6, 3, 2 ],
+        "fort" : 1,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 2,
+          "l3" : 0
+        },
+        "will" : 4
+      },
+      "l5" : {
+        "BAB" : 3,
+        "spellsKnown" : [ 6, 4, 3 ],
+        "fort" : 1,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l6" : {
+        "BAB" : 4,
+        "spellsKnown" : [ 6, 4, 3 ],
+        "abilities" : [ "Suggestion" ],
+        "fort" : 2,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 2
+        },
+        "will" : 5
+      },
+      "l7" : {
+        "BAB" : 5,
+        "spellsKnown" : [ 6, 4, 4, 2 ],
+        "fort" : 2,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 2,
+          "l4" : 0
+        },
+        "will" : 5
+      },
+      "l8" : {
+        "BAB" : 6,
+        "spellsKnown" : [ 6, 4, 4, 3 ],
+        "abilities" : [ "Inspire courage +2" ],
+        "fort" : 2,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 1
+        },
+        "will" : 6
+      },
+      "l9" : {
+        "BAB" : 6,
+        "spellsKnown" : [ 6, 4, 4, 3 ],
+        "abilities" : [ "Inspire greatness" ],
+        "fort" : 3,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 2
+        },
+        "will" : 6
+      }
+    },
+    "name" : "Bard",
+    "psionicClass" : false,
+    "secondaryStat" : "Dexterity",
+    "skillPoints" : 6,
+    "spellCaster" : true,
+    "spells" : {
+      "levels" : {
+        "l0" : {
+          "dancing_lights" : true,
+          "daze" : true,
+          "detect_magic" : true,
+          "flare" : true,
+          "ghost_sound" : true,
+          "know_direction" : true,
+          "light" : true,
+          "lullaby" : true,
+          "mage hand" : true,
+          "mending" : true,
+          "message" : true,
+          "open_close" : true,
+          "prestidigitation" : true,
+          "read_magic" : true,
+          "resistance" : true,
+          "summon_instrument" : true
+        },
+        "l1" : {
+          "alarm" : true,
+          "animate_rope" : true,
+          "cause_fear" : true,
+          "charm_person" : true,
+          "comprehend_languages" : true,
+          "cure_light_wounds" : true,
+          "detect_secret_doors" : true,
+          "disguise_self" : true,
+          "erase" : true,
+          "expeditious_retreat" : true,
+          "feather_fall" : true,
+          "grease" : true,
+          "hypnotism" : true,
+          "identify" : true,
+          "lesser_confusion" : true,
+          "magic_mouth" : true,
+          "nystuls_magic_aura" : true,
+          "obscure_object" : true,
+          "remove_fear" : true,
+          "silent_image" : true,
+          "sleep" : true,
+          "summon_monster_i" : true,
+          "tashas_hideous_laughter" : true,
+          "undetectable_alignment" : true,
+          "unseen_servant" : true,
+          "ventriloquism" : true
+        },
+        "l2" : {
+          "alter_self" : true,
+          "animal_messenger" : true,
+          "animal_trance" : true,
+          "blindness_deafness" : true,
+          "blur" : true,
+          "calm_emotions" : true,
+          "cats_grace" : true,
+          "cure_moderate_wounds" : true,
+          "darkness" : true,
+          "daze_monster" : true,
+          "delay_poison" : true,
+          "detect_thoughts" : true,
+          "eagles_splendor" : true,
+          "enthrall" : true,
+          "foxs_cunning" : true,
+          "glitterdust" : true,
+          "heroism" : true,
+          "hold_person" : true,
+          "hypnotic_pattern" : true,
+          "invisibility" : true,
+          "locate_object" : true,
+          "minor_image" : true,
+          "mirror_image" : true,
+          "misdirection" : true,
+          "pyrotechnics" : true,
+          "rage" : true,
+          "scare" : true,
+          "shatter" : true,
+          "silence" : true,
+          "sound_burst" : true,
+          "suggestion" : true,
+          "summon_monster_ii" : true,
+          "summon_swarm" : true,
+          "tongues" : true,
+          "whispering_wind" : true
+        },
+        "l3" : {
+          "blink" : true,
+          "charm_monster" : true,
+          "clairaudience_clairvoyance" : true,
+          "confusion" : true,
+          "crushing_despair" : true,
+          "cure_serious_wounds" : true,
+          "daylight" : true,
+          "deep_slumber" : true,
+          "dispel_magic" : true,
+          "displacement" : true,
+          "fear" : true,
+          "gaseous_form" : true,
+          "geas_lesser" : true,
+          "glibness" : true,
+          "good_hope" : true,
+          "haste" : true,
+          "illusory_script" : true,
+          "invisibility_sphere" : true,
+          "leomunds_tiny_hut" : true,
+          "major_image" : true,
+          "phantom_steed" : true,
+          "remove_curse" : true,
+          "scrying" : true,
+          "sculpt_sound" : true,
+          "secret_page" : true,
+          "see_invisibility" : true,
+          "sepia_snake_sigil" : true,
+          "slow" : true,
+          "speak_with_animals" : true,
+          "summon_monster_iii" : true
+        },
+        "l4" : {
+          "break_enchantment" : true,
+          "cure_critical_wounds" : true,
+          "detect_scrying" : true,
+          "dimension_door" : true,
+          "dominate_person" : true,
+          "freedom_of_movement" : true,
+          "hallucinatory_terrain" : true,
+          "hold_monster" : true,
+          "invisibility_greater" : true,
+          "legend_lore" : true,
+          "leomunds_secure_shelter" : true,
+          "locate_creature" : true,
+          "modify_memory" : true,
+          "neutralize_poison" : true,
+          "rainbow_pattern" : true,
+          "repel_vermin" : true,
+          "shadow_conjuration" : true,
+          "shout" : true,
+          "speak_with_plants" : true,
+          "summon_monster_iv" : true,
+          "zone_of_silence" : true
+        },
+        "l5" : {
+          "cure_light_wounds_mass" : true,
+          "dispel_magic_greater" : true,
+          "dream" : true,
+          "false_vision" : true,
+          "heroism_greater" : true,
+          "mind_fog" : true,
+          "mirage_arcana" : true,
+          "mislead" : true,
+          "nightmare" : true,
+          "persistent_image" : true,
+          "seeming" : true,
+          "shadow_evocation" : true,
+          "shadow_walk" : true,
+          "song_discord" : true,
+          "suggestion_mass" : true,
+          "summon_monster_v" : true
+        },
+        "l6" : {
+          "analyze_dweomer" : true,
+          "animate_objects" : true,
+          "cats_grace_mass" : true,
+          "charm_monster_mass" : true,
+          "cure_moderate_wounds_mass" : true,
+          "eagles_splendor_mass" : true,
+          "eyebite" : true,
+          "find_the_path" : true,
+          "foxs_cunning_mass" : true,
+          "geas_quest" : true,
+          "heroes_feast" : true,
+          "ottos_irresistible_dance" : true,
+          "permanent_image" : true,
+          "programmed_image" : true,
+          "project_image" : true,
+          "scrying_greater" : true,
+          "shout_greater" : true,
+          "summon_monster_vi" : true,
+          "sympathetic_vibration" : true,
+          "veil" : true
+        }
+      },
+      "type" : "arcane"
+    },
+    "weaponArmorProficiency" : [ "Simple weapons", "Longsword", "Rapier", "Sap", "Short sword", "Shortbow", "Whip", "Light armor", "Basic shields" ]
+  },
+  "cleric" : {
+    "BookSource" : "PHB",
+    "alignment" : "Any",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "concentration" : true,
+      "craft" : true,
+      "diplomacy" : true,
+      "heal" : true,
+      "knowledge_arcane" : true,
+      "knowledge_history" : true,
+      "knowledge_religion" : true,
+      "knowledge_the_planes" : true,
+      "profession" : true,
+      "spellcraft" : true
+    },
+    "hitDice" : "d4",
+    "keyStat" : "Wisdom",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Turn or rebuke undead" ],
+        "fort" : 2,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 3,
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l10" : {
+        "BAB" : 7,
+        "spellsKnown" : [ "All" ],
+        "fort" : 7,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 2
+        },
+        "will" : 7
+      },
+      "l11" : {
+        "BAB" : 8,
+        "spellsKnown" : [ "All" ],
+        "fort" : 7,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 2,
+          "l6" : 1
+        },
+        "will" : 7
+      },
+      "l12" : {
+        "BAB" : 9,
+        "spellsKnown" : [ "All" ],
+        "fort" : 8,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 3,
+          "l6" : 2
+        },
+        "will" : 8
+      },
+      "l13" : {
+        "BAB" : 9,
+        "spellsKnown" : [ "All" ],
+        "fort" : 8,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 2,
+          "l7" : 1
+        },
+        "will" : 8
+      },
+      "l14" : {
+        "BAB" : 10,
+        "spellsKnown" : [ "All" ],
+        "fort" : 9,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 3,
+          "l7" : 2
+        },
+        "will" : 9
+      },
+      "l15" : {
+        "BAB" : 11,
+        "spellsKnown" : [ "All" ],
+        "fort" : 9,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 2,
+          "l8" : 1
+        },
+        "will" : 9
+      },
+      "l16" : {
+        "BAB" : 12,
+        "spellsKnown" : [ "All" ],
+        "fort" : 10,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 3,
+          "l8" : 2
+        },
+        "will" : 10
+      },
+      "l17" : {
+        "BAB" : 12,
+        "spellsKnown" : [ "All" ],
+        "fort" : 10,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3,
+          "l8" : 2,
+          "l9" : 1
+        },
+        "will" : 10
+      },
+      "l18" : {
+        "BAB" : 13,
+        "spellsKnown" : [ "All" ],
+        "fort" : 11,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3,
+          "l8" : 3,
+          "l9" : 2
+        },
+        "will" : 11
+      },
+      "l19" : {
+        "BAB" : 14,
+        "spellsKnown" : [ "All" ],
+        "fort" : 11,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 5,
+          "l6" : 4,
+          "l7" : 4,
+          "l8" : 3,
+          "l9" : 3
+        },
+        "will" : 11
+      },
+      "l2" : {
+        "BAB" : 1,
+        "spellsKnown" : [ "All" ],
+        "fort" : 3,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 2
+        },
+        "will" : 3
+      },
+      "l20" : {
+        "BAB" : 15,
+        "spellsKnown" : [ "All" ],
+        "fort" : 12,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 5,
+          "l6" : 4,
+          "l7" : 4,
+          "l8" : 4,
+          "l9" : 4
+        },
+        "will" : 12
+      },
+      "l3" : {
+        "BAB" : 2,
+        "spellsKnown" : [ "All" ],
+        "fort" : 3,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 2,
+          "l2" : 1
+        },
+        "will" : 3
+      },
+      "l4" : {
+        "BAB" : 3,
+        "spellsKnown" : [ "All" ],
+        "fort" : 4,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3,
+          "l2" : 2
+        },
+        "will" : 4
+      },
+      "l5" : {
+        "BAB" : 3,
+        "spellsKnown" : [ "All" ],
+        "fort" : 4,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3,
+          "l2" : 2,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l6" : {
+        "BAB" : 4,
+        "spellsKnown" : [ "All" ],
+        "fort" : 5,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 2
+        },
+        "will" : 5
+      },
+      "l7" : {
+        "BAB" : 5,
+        "spellsKnown" : [ "All" ],
+        "fort" : 5,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l8" : {
+        "BAB" : 6,
+        "spellsKnown" : [ "All" ],
+        "fort" : 6,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 2
+        },
+        "will" : 6
+      },
+      "l9" : {
+        "BAB" : 6,
+        "spellsKnown" : [ "All" ],
+        "fort" : 6,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 2,
+          "l5" : 1
+        },
+        "will" : 6
+      }
+    },
+    "misc" : [ "Diety's weapon proficiency", "Domain abilities", "Domain spells" ],
+    "name" : "Cleric",
+    "psionicClass" : false,
+    "secondaryStat" : "Charisma",
+    "skillPoints" : 2,
+    "spellCaster" : true,
+    "spells" : {
+      "levels" : {
+        "l0" : {
+          "create_water" : true,
+          "cure_minor_wounds" : true,
+          "detect_magic" : true,
+          "detect_poison" : true,
+          "guidance" : true,
+          "inflict_minor_wounds" : true,
+          "light" : true,
+          "mending" : true,
+          "message" : true,
+          "read_magic" : true,
+          "resistance" : true,
+          "virtue" : true
+        },
+        "l1" : {
+          "bane" : true,
+          "bless" : true,
+          "bless_water" : true,
+          "cause_fear" : true,
+          "command" : true,
+          "comprehend_languages" : true,
+          "cure_light_wounds" : true,
+          "curse_water" : true,
+          "deathwatch" : true,
+          "detect_chaos" : true,
+          "detect_evil" : true,
+          "detect_good" : true,
+          "detect_law" : true,
+          "detect_undead" : true,
+          "divine_favor" : true,
+          "doom" : true,
+          "endure_elements" : true,
+          "entropic_shield" : true,
+          "hide_from_undead" : true,
+          "inflict_light_wounds" : true,
+          "magic_stone" : true,
+          "magic_weapon" : true,
+          "obscuring_mist" : true,
+          "protection_from_chaos" : true,
+          "protection_from_evil" : true,
+          "protection_from_good" : true,
+          "protection_from_law" : true,
+          "remove_fear" : true,
+          "sanctuary" : true,
+          "shield_of_faith" : true,
+          "summon_monster_i" : true
+        },
+        "l2" : {
+          "aid" : true,
+          "align_weapon" : true,
+          "augury" : true,
+          "bears_endurance" : true,
+          "bulls_strength" : true,
+          "calm_emotion" : true,
+          "concrete" : true,
+          "cure_moderate_wounds" : true,
+          "darkness" : true,
+          "death_knell" : true,
+          "delay_poison" : true,
+          "desecrate" : true,
+          "eagles_splendor" : true,
+          "enthrall" : true,
+          "find_traps" : true,
+          "gentle_repose" : true,
+          "hold_person" : true,
+          "inflict_moderate_wounds" : true,
+          "make_whole" : true,
+          "owls_wisdom" : true,
+          "remove_paralysis" : true,
+          "resist_energy" : true,
+          "restoration_lesser" : true,
+          "shatter" : true,
+          "shield_other" : true,
+          "silence" : true,
+          "sound_burst" : true,
+          "spiritual_weapon" : true,
+          "status" : true,
+          "summon_monster_ii" : true,
+          "undetectable_alignment" : true,
+          "zone_of_truth" : true
+        },
+        "l3" : {
+          "animate_dead" : true,
+          "bestow_curse" : true,
+          "blindness_deafness" : true,
+          "contagion" : true,
+          "create_food_and_water" : true,
+          "cure_serious_wounds" : true,
+          "daylight" : true,
+          "deeper_darkness" : true,
+          "dispel_magic" : true,
+          "glyph_of_warding" : true,
+          "helping_hand" : true,
+          "inflict_serious_wounds" : true,
+          "invisibility_purge" : true,
+          "locate_object" : true,
+          "magic_circle_against_chaos" : true,
+          "magic_circle_against_evil" : true,
+          "magic_circle_against_good" : true,
+          "magic_circle_against_law" : true,
+          "magic_vestment" : true,
+          "meld_into_stone" : true,
+          "obscure_object" : true,
+          "prayer" : true,
+          "protection_from_energy" : true,
+          "remove blindness_deafness" : true,
+          "remove_curse" : true,
+          "remove_disease" : true,
+          "searing_light" : true,
+          "speak_with_death" : true,
+          "stone_shape" : true,
+          "summon_monster_iii" : true,
+          "water_breathing" : true,
+          "water_walk" : true,
+          "wind_wall" : true
+        },
+        "l4" : {
+          "air_walk" : true,
+          "control_water" : true,
+          "cure_critical_wounds" : true,
+          "death_ward" : true,
+          "dimensional_anchor" : true,
+          "discern_lies" : true,
+          "dismissal" : true,
+          "divination" : true,
+          "divine_power" : true,
+          "freedom_of_movement" : true,
+          "giant_vermin" : true,
+          "imbue_with_spell_ability" : true,
+          "inflict_critical_wounds" : true,
+          "magic_weapon_greater" : true,
+          "neutralize_poison" : true,
+          "planar_ally_lesser" : true,
+          "poison" : true,
+          "repel_vermin" : true,
+          "restoration" : true,
+          "sending" : true,
+          "spell_immunity" : true,
+          "summon_monster_iv" : true,
+          "tongues" : true
+        },
+        "l5" : {
+          "atonement" : true,
+          "break_enchantment" : true,
+          "command_greater" : true,
+          "commune" : true,
+          "cure_light_wounds_mass" : true,
+          "dispel_chaos" : true,
+          "dispel_evil" : true,
+          "dispel_good" : true,
+          "dispel_law" : true,
+          "disrupting_weapon" : true,
+          "flame_strike" : true,
+          "hallow" : true,
+          "inflict_light_wounds_mass" : true,
+          "insect_plague" : true,
+          "mark_of_justice" : true,
+          "plane_shift" : true,
+          "raise_dead" : true,
+          "righteous_might" : true,
+          "scrying" : true,
+          "slay_living" : true,
+          "spell_resistance" : true,
+          "summon_monster_v" : true,
+          "symbol_of_pain" : true,
+          "symbol_of_sleep" : true,
+          "true_seeing" : true,
+          "unhallow" : true,
+          "wall_of_stone" : true
+        },
+        "l6" : {
+          "animate_objects" : true,
+          "antilife_shell" : true,
+          "banishment" : true,
+          "bears_endurance_mass" : true,
+          "blade_barrier" : true,
+          "bulls_strength_mass" : true,
+          "create_undead" : true,
+          "cure_moderate_wounds_mass" : true,
+          "dispel_magic_greater" : true,
+          "eagles_splendor_mass" : true,
+          "find_the_path" : true,
+          "forbiddance" : true,
+          "geas_quest" : true,
+          "glyph_of_warding_greater" : true,
+          "harm" : true,
+          "heal" : true,
+          "heroes_feast" : true,
+          "inflict_moderate_wounds_mass" : true,
+          "owls_wisdom_mass" : true,
+          "planar_ally" : true,
+          "summon_monster_vi" : true,
+          "symbol_of_fear" : true,
+          "symbol_of_persuasion" : true,
+          "undeath_to_death" : true,
+          "ward_of_recall" : true,
+          "wind_walk" : true
+        },
+        "l7" : {
+          "blasphemy" : true,
+          "control_weather" : true,
+          "cure_serious_wounds_mass" : true,
+          "destruction" : true,
+          "dictum" : true,
+          "ethereal_jaunt" : true,
+          "holy_word" : true,
+          "inflict_serious_wounds_mass" : true,
+          "refuge" : true,
+          "regenerate" : true,
+          "repulsion" : true,
+          "restoration_greater" : true,
+          "resurrection" : true,
+          "scrying_greater" : true,
+          "summon_monster_vii" : true,
+          "symbol_of_stunning" : true,
+          "symbol_of_weakness" : true,
+          "word_of_chaos" : true
+        },
+        "l8" : {
+          "antimagic_field" : true,
+          "cloak_of_chaos" : true,
+          "create_greater_undead" : true,
+          "cure_critical_wounds_mass" : true,
+          "dimensional_lock" : true,
+          "discern_location" : true,
+          "earthquake" : true,
+          "fire_storm" : true,
+          "holy_aura" : true,
+          "inflict_critical_wounds_mass" : true,
+          "planar_ally_greater" : true,
+          "shield_of_law" : true,
+          "spell_immunity_greater" : true,
+          "summon_monster_vii" : true,
+          "symbol_of_death" : true,
+          "symbol_of_insanity" : true,
+          "unholy_aura" : true
+        },
+        "l9" : {
+          "astral_projection" : true,
+          "energy_drain" : true,
+          "etherealness" : true,
+          "gate" : true,
+          "heal_mass" : true,
+          "implosion" : true,
+          "miracle" : true,
+          "soul_bind" : true,
+          "storm_of_vengeance" : true,
+          "summon_monster_ix" : true,
+          "true_resurrection" : true
+        }
+      },
+      "type" : "divine"
+    },
+    "weaponArmorProficiency" : [ "Simple weapons", "Light armor", "Medium armor", "Heavy armor", "Basic shields" ]
+  },
+  "druid" : {
+    "alignment" : "Neutral",
+    "base" : true,
+    "bonusLanguages" : [ "Sylvan" ],
+    "classSkills" : {
+      "concentration" : true,
+      "craft" : true,
+      "diplomacy" : true,
+      "handle animal" : true,
+      "heal" : true,
+      "knowledge_nature" : true,
+      "listen" : true,
+      "profession" : true,
+      "ride" : true,
+      "spellcraft" : true,
+      "spot" : true,
+      "survival" : true,
+      "swim" : true
+    },
+    "hitDice" : "d8",
+    "keyStat" : "Wisdom",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Animal companion", "Nature sense", "Wild empathy" ],
+        "fort" : 2,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 3,
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l10" : {
+        "BAB" : 7,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (4/day)" ],
+        "fort" : 7,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 2
+        },
+        "will" : 7
+      },
+      "l11" : {
+        "BAB" : 8,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (tiny)" ],
+        "fort" : 7,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 2,
+          "l6" : 1
+        },
+        "will" : 7
+      },
+      "l12" : {
+        "BAB" : 9,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (plant)" ],
+        "fort" : 8,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 3,
+          "l6" : 2
+        },
+        "will" : 8
+      },
+      "l13" : {
+        "BAB" : 9,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "A thousand faces" ],
+        "fort" : 8,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 2,
+          "l7" : 1
+        },
+        "will" : 8
+      },
+      "l14" : {
+        "BAB" : 10,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (5/day)" ],
+        "fort" : 9,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 3,
+          "l7" : 2
+        },
+        "will" : 9
+      },
+      "l15" : {
+        "BAB" : 11,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Timeless body", "Wild shape (huge)" ],
+        "fort" : 9,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 2,
+          "l8" : 1
+        },
+        "will" : 9
+      },
+      "l16" : {
+        "BAB" : 12,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (elemental 1/day)" ],
+        "fort" : 10,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 3,
+          "l8" : 2
+        },
+        "will" : 10
+      },
+      "l17" : {
+        "BAB" : 12,
+        "spellsKnown" : [ "All" ],
+        "fort" : 10,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3,
+          "l8" : 2,
+          "l9" : 1
+        },
+        "will" : 10
+      },
+      "l18" : {
+        "BAB" : 14,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (6/day)", "Wild shape (elemental 2/day)" ],
+        "fort" : 11,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3,
+          "l8" : 3,
+          "l9" : 2
+        },
+        "will" : 11
+      },
+      "l19" : {
+        "BAB" : 14,
+        "spellsKnown" : [ "All" ],
+        "fort" : 11,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 5,
+          "l6" : 4,
+          "l7" : 4,
+          "l8" : 3,
+          "l9" : 3
+        },
+        "will" : 11
+      },
+      "l2" : {
+        "BAB" : 1,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Woodland stride" ],
+        "fort" : 3,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 2
+        },
+        "will" : 3
+      },
+      "l20" : {
+        "BAB" : 15,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (elemental 3/day)", "Wild shape (huge elemental)" ],
+        "fort" : 12,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5,
+          "l2" : 5,
+          "l3" : 5,
+          "l4" : 5,
+          "l5" : 5,
+          "l6" : 4,
+          "l7" : 4,
+          "l8" : 4,
+          "l9" : 4
+        },
+        "will" : 12
+      },
+      "l3" : {
+        "BAB" : 2,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Trackless step" ],
+        "fort" : 3,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 2,
+          "l2" : 1
+        },
+        "will" : 3
+      },
+      "l4" : {
+        "BAB" : 3,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Resist nature's lure" ],
+        "fort" : 4,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3,
+          "l2" : 2
+        },
+        "will" : 4
+      },
+      "l5" : {
+        "BAB" : 3,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (1/day)" ],
+        "fort" : 4,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3,
+          "l2" : 2,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l6" : {
+        "BAB" : 4,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (2/day)" ],
+        "fort" : 5,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 2
+        },
+        "will" : 5
+      },
+      "l7" : {
+        "BAB" : 5,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (3/day)" ],
+        "fort" : 5,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l8" : {
+        "BAB" : 6,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Wild shape (large)" ],
+        "fort" : 6,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 2
+        },
+        "will" : 6
+      },
+      "l9" : {
+        "BAB" : 6,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Venom immunity" ],
+        "fort" : 6,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 2,
+          "l5" : 1
+        },
+        "will" : 6
+      }
+    },
+    "misc" : [ "Language (Druidic)", "Animal companion" ],
+    "name" : "Druid",
+    "psionicClass" : false,
+    "secondaryStat" : "Charisma",
+    "skillPoints" : 4,
+    "spellCaster" : true,
+    "spells" : {
+      "levels" : {
+        "l0" : {
+          "create_water" : true,
+          "cure_minor_wounds" : true,
+          "detect_magic" : true,
+          "detect_poison" : true,
+          "flare" : true,
+          "guidance" : true,
+          "know_direction" : true,
+          "light" : true,
+          "mending" : true,
+          "purify_food_and_drink" : true,
+          "read_magic" : true,
+          "resistance" : true,
+          "virtue" : true
+        },
+        "l1" : {
+          "calm_animals" : true,
+          "cure_light_wounds" : true,
+          "detect_animals_or_plants" : true,
+          "detect_snares_and_pits" : true,
+          "endure_elements" : true,
+          "entangle" : true,
+          "faerie_fire" : true,
+          "goodberry" : true,
+          "hide_from_animals" : true,
+          "jump" : true,
+          "longstrider" : true,
+          "magic_fang" : true,
+          "magic_stone" : true,
+          "obscuring_mist" : true,
+          "pass_without_trace" : true,
+          "produce_flame" : true,
+          "shillelagh" : true,
+          "speak_with_animals" : true,
+          "summon_natures_ally_i" : true
+        },
+        "l2" : {
+          "animal_messenger" : true,
+          "animal_trance" : true,
+          "barkskin" : true,
+          "bears_endurance" : true,
+          "bulls_strength" : true,
+          "cats_grace" : true,
+          "chill_metal" : true,
+          "delay_poison" : true,
+          "fire_trap" : true,
+          "flame_blade" : true,
+          "flaming_sphere" : true,
+          "fog_cloud" : true,
+          "gust_of_wind" : true,
+          "heat_metal" : true,
+          "hold_animal" : true,
+          "owls_wisdom" : true,
+          "reduce_animal" : true,
+          "resist_energy" : true,
+          "restoration_lesser" : true,
+          "soften_earth_and_stone" : true,
+          "spider_climb" : true,
+          "summon_natures_ally_ii" : true,
+          "summon_swarm" : true,
+          "tree_shape" : true,
+          "warp_wood" : true,
+          "wood_shape" : true
+        },
+        "l3" : {
+          "call_lightning" : true,
+          "contagion" : true,
+          "cure_moderate_wounds" : true,
+          "daylight" : true,
+          "diminish_plants" : true,
+          "dominate_animal" : true,
+          "magic_fang_greater" : true,
+          "meld_into_stone" : true,
+          "neutralize_poison" : true,
+          "plant_growth" : true,
+          "poison" : true,
+          "protection_from_energy" : true,
+          "quench" : true,
+          "remove_disease" : true,
+          "sleet_storm" : true,
+          "snare" : true,
+          "speak_with_plants" : true,
+          "spike_growth" : true,
+          "stone_shape" : true,
+          "summon_natures_ally_iii" : true,
+          "water_breathing" : true,
+          "wind_wall" : true
+        },
+        "l4" : {
+          "air_walk" : true,
+          "antiplant_shell" : true,
+          "blight" : true,
+          "command_plants" : true,
+          "control_water" : true,
+          "cure_serious_wounds" : true,
+          "dispel_magic" : true,
+          "flame_strike" : true,
+          "freedom_of_movement" : true,
+          "giant_vermin" : true,
+          "ice_storm" : true,
+          "reincarnate" : true,
+          "repel_vermin" : true,
+          "rusting_grasp" : true,
+          "scrying" : true,
+          "spike_stones" : true,
+          "summon_natures_ally_iv" : true
+        },
+        "l5" : {
+          "animal_growth" : true,
+          "atonement" : true,
+          "awaken" : true,
+          "baleful_polymorph" : true,
+          "call_lightning_storm" : true,
+          "commune_with_nature" : true,
+          "control_winds" : true,
+          "cure_critical_wounds" : true,
+          "death_ward" : true,
+          "hallow" : true,
+          "insect_plague" : true,
+          "stoneskin" : true,
+          "summon_natures_ally_v" : true,
+          "transmute_mud_to_rock" : true,
+          "transmute_rock_to_mud" : true,
+          "tree_stride" : true,
+          "unhallow" : true,
+          "wall_of_fire" : true,
+          "wall_of_thorns" : true
+        },
+        "l6" : {
+          "antilife_shell" : true,
+          "bears_endurance_mass" : true,
+          "bulls_strength_mass" : true,
+          "cats_grace_mass" : true,
+          "cure_light_wounds_mass" : true,
+          "dispel_magic_greater" : true,
+          "find_the_path" : true,
+          "fire_seeds" : true,
+          "ironwood" : true,
+          "liveoak" : true,
+          "move_earth" : true,
+          "owls_wisdom_mass" : true,
+          "repel_wood" : true,
+          "spellstaff" : true,
+          "stone_tell" : true,
+          "summon_natures_ally_vi" : true,
+          "transport_via_plants" : true,
+          "wall_of_stone" : true
+        },
+        "l7" : {
+          "animate_plants" : true,
+          "changestaff" : true,
+          "control_weather" : true,
+          "creeping_doom" : true,
+          "cure_moderate_wounds_mass" : true,
+          "fire_storm" : true,
+          "heal" : true,
+          "scrying_greater" : true,
+          "summon_natures_ally_vii" : true,
+          "sunbeam" : true,
+          "transmute_metal_to_wood" : true,
+          "true_seeing" : true,
+          "wind_walk" : true
+        },
+        "l8" : {
+          "animal_shapes" : true,
+          "control_plants" : true,
+          "cure_serious_wounds_mass" : true,
+          "earthquake" : true,
+          "finger_of_death" : true,
+          "repel_metal_or_stone" : true,
+          "reverse_gravity" : true,
+          "summon_natures_ally_viii" : true,
+          "sunburst" : true,
+          "whirlwind" : true,
+          "word_of_recall" : true
+        },
+        "l9" : {
+          "antipathy" : true,
+          "cure_critical_wounds_mass" : true,
+          "elemental_swarm" : true,
+          "foresight" : true,
+          "regenerate" : true,
+          "shambler" : true,
+          "shapechange" : true,
+          "storm_of_vengeance" : true,
+          "summon_natures_ally_ix" : true,
+          "sympathy" : true
+        }
+      },
+      "type" : "divine"
+    },
+    "weaponArmorProficiency" : [ "Club", "Dagger", "Dart", "Quarterstaff", "Scimitar", "Sickle", "Shortspear", "Sling", "Spear" ]
+  },
+  "fighter" : {
+    "alignment" : "Any",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "climb" : true,
+      "craft" : true,
+      "handle_animal" : true,
+      "intimidate" : true,
+      "jump" : true,
+      "ride" : true,
+      "swim" : true
+    },
+    "hitDice" : "d10",
+    "keyStat" : "Strength",
+    "levels" : {
+      "l1" : {
+        "BAB" : 1,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 2,
+        "ref" : 0,
+        "will" : 0
+      },
+      "l10" : {
+        "BAB" : 10,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 7,
+        "ref" : 3,
+        "will" : 3
+      },
+      "l11" : {
+        "BAB" : 11,
+        "fort" : 7,
+        "ref" : 3,
+        "will" : 3
+      },
+      "l12" : {
+        "BAB" : 12,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 8,
+        "ref" : 4,
+        "will" : 4
+      },
+      "l13" : {
+        "BAB" : 13,
+        "fort" : 8,
+        "ref" : 4,
+        "will" : 4
+      },
+      "l14" : {
+        "BAB" : 14,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 9,
+        "ref" : 4,
+        "will" : 4
+      },
+      "l15" : {
+        "BAB" : 15,
+        "fort" : 9,
+        "ref" : 5,
+        "will" : 5
+      },
+      "l16" : {
+        "BAB" : 16,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 10,
+        "ref" : 5,
+        "will" : 5
+      },
+      "l17" : {
+        "BAB" : 17,
+        "fort" : 10,
+        "ref" : 5,
+        "will" : 5
+      },
+      "l18" : {
+        "BAB" : 18,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 11,
+        "ref" : 6,
+        "will" : 6
+      },
+      "l19" : {
+        "BAB" : 19,
+        "fort" : 11,
+        "ref" : 6,
+        "will" : 6
+      },
+      "l2" : {
+        "BAB" : 2,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 3,
+        "ref" : 0,
+        "will" : 0
+      },
+      "l20" : {
+        "BAB" : 20,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 12,
+        "ref" : 6,
+        "will" : 6
+      },
+      "l3" : {
+        "BAB" : 3,
+        "fort" : 3,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l4" : {
+        "BAB" : 4,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 4,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l5" : {
+        "BAB" : 5,
+        "fort" : 4,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l6" : {
+        "BAB" : 6,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 5,
+        "ref" : 2,
+        "will" : 2
+      },
+      "l7" : {
+        "BAB" : 7,
+        "fort" : 5,
+        "ref" : 2,
+        "will" : 2
+      },
+      "l8" : {
+        "BAB" : 8,
+        "abilities" : [ "Bonus fighter feat" ],
+        "fort" : 6,
+        "ref" : 2,
+        "will" : 2
+      },
+      "l9" : {
+        "BAB" : 9,
+        "fort" : 6,
+        "ref" : 3,
+        "will" : 3
+      }
+    },
+    "name" : "Fighter",
+    "psionicClass" : false,
+    "secondaryStat" : "Constitution",
+    "skillPoints" : 2,
+    "spellCaster" : false,
+    "weaponArmorProficiency" : [ "Simple weapons", "Martial weapons", "Light armor", "Medium armor", "Heavy armor", "Shields" ]
+  },
+  "monk" : {
+    "alignment" : "Lawful",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "balance" : true,
+      "climb" : true,
+      "concentration" : true,
+      "craft" : true,
+      "diplomacy" : true,
+      "escape_artist" : true,
+      "hide" : true,
+      "jump" : true,
+      "knowledge_arcana" : true,
+      "knowledge_religion" : true,
+      "listen" : true,
+      "move_silently" : true,
+      "spot" : true,
+      "swim" : true,
+      "tumble" : true
+    },
+    "hitDice" : "d8",
+    "keyStat" : "Dexterity",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "abilities" : [ "Bonus monk feat", "Flurry of blows", "Unarmed strike" ],
+        "fort" : 2,
+        "misc" : {
+          "AC bonus" : 0,
+          "Flurry of blows" : "-2/-2",
+          "Unarmed damage" : "1d6",
+          "Unarmored speed bonus" : 0
+        },
+        "ref" : 2,
+        "will" : 2
+      },
+      "l10" : {
+        "BAB" : 7,
+        "abilities" : [ "Ki strike (lawful)", "Slow fall 50ft" ],
+        "fort" : 7,
+        "misc" : {
+          "AC bonus" : 2,
+          "Flurry of blows" : "7/7/2",
+          "Unarmed damage" : "1d10",
+          "Unarmored speed bonus" : 30
+        },
+        "ref" : 7,
+        "will" : 7
+      },
+      "l11" : {
+        "BAB" : 8,
+        "abilities" : [ "Diamond body", "Greater flurry" ],
+        "fort" : 7,
+        "misc" : {
+          "AC bonus" : 2,
+          "Flurry of blows" : "8/8/8/3",
+          "Unarmed damage" : "1d10",
+          "Unarmored speed bonus" : 30
+        },
+        "ref" : 7,
+        "will" : 7
+      },
+      "l12" : {
+        "BAB" : 9,
+        "abilities" : [ "Abundant step", "Slow fall 60ft" ],
+        "fort" : 8,
+        "misc" : {
+          "AC bonus" : 2,
+          "Flurry of blows" : "9/9/9/4",
+          "Unarmed damage" : "2d6",
+          "Unarmored speed bonus" : 40
+        },
+        "ref" : 8,
+        "will" : 8
+      },
+      "l13" : {
+        "BAB" : 9,
+        "abilities" : [ "Diamond soul" ],
+        "fort" : 8,
+        "misc" : {
+          "AC bonus" : 2,
+          "Flurry of blows" : "9/9/9/4",
+          "Unarmed damage" : "2d6",
+          "Unarmored speed bonus" : 40
+        },
+        "ref" : 8,
+        "will" : 8
+      },
+      "l14" : {
+        "BAB" : 10,
+        "abilities" : [ "Slow fall 70ft" ],
+        "fort" : 9,
+        "misc" : {
+          "AC bonus" : 2,
+          "Flurry of blows" : "10/10/10/5",
+          "Unarmed damage" : "2d6",
+          "Unarmored speed bonus" : 40
+        },
+        "ref" : 9,
+        "will" : 9
+      },
+      "l15" : {
+        "BAB" : 11,
+        "abilities" : [ "Quivering palm" ],
+        "fort" : 9,
+        "misc" : {
+          "AC bonus" : 3,
+          "Flurry of blows" : "11/11/11/6/1",
+          "Unarmed damage" : "2d6",
+          "Unarmored speed bonus" : 50
+        },
+        "ref" : 9,
+        "will" : 9
+      },
+      "l16" : {
+        "BAB" : 12,
+        "abilities" : [ "Ki strike (adamantine)", "Slow fall 80ft" ],
+        "fort" : 10,
+        "misc" : {
+          "AC bonus" : 3,
+          "Flurry of blows" : "12/12/12/7/2",
+          "Unarmed damage" : "2d8",
+          "Unarmored speed bonus" : 50
+        },
+        "ref" : 10,
+        "will" : 10
+      },
+      "l17" : {
+        "BAB" : 12,
+        "abilities" : [ "Timeless body", "Tongue of the sun and moon" ],
+        "fort" : 10,
+        "misc" : {
+          "AC bonus" : 3,
+          "Flurry of blows" : "12/12/12/7/2",
+          "Unarmed damage" : "2d8",
+          "Unarmored speed bonus" : 50
+        },
+        "ref" : 10,
+        "will" : 10
+      },
+      "l18" : {
+        "BAB" : 13,
+        "abilities" : [ "Slow fall 90ft" ],
+        "fort" : 11,
+        "misc" : {
+          "AC bonus" : 3,
+          "Flurry of blows" : "13/13/13/8/3",
+          "Unarmed damage" : "2d8",
+          "Unarmored speed bonus" : 60
+        },
+        "ref" : 11,
+        "will" : 11
+      },
+      "l19" : {
+        "BAB" : 14,
+        "abilities" : [ "Empty body" ],
+        "fort" : 11,
+        "misc" : {
+          "AC bonus" : 3,
+          "Flurry of blows" : "14/14/14/9/4",
+          "Unarmed damage" : "2d8",
+          "Unarmored speed bonus" : 60
+        },
+        "ref" : 11,
+        "will" : 11
+      },
+      "l2" : {
+        "BAB" : 1,
+        "abilities" : [ "Bonus monk feat", "Evasion", "Fast movement" ],
+        "fort" : 3,
+        "misc" : {
+          "AC bonus" : 0,
+          "Flurry of blows" : "-1/-1",
+          "Unarmed damage" : "1d6",
+          "Unarmored speed bonus" : 0
+        },
+        "ref" : 3,
+        "will" : 3
+      },
+      "l20" : {
+        "BAB" : 15,
+        "abilities" : [ "Perfect self", "Slow fall any distance" ],
+        "fort" : 12,
+        "misc" : {
+          "AC bonus" : 4,
+          "Flurry of blows" : "15/15/15/10/5",
+          "Unarmed damage" : "2d10",
+          "Unarmored speed bonus" : 60
+        },
+        "ref" : 12,
+        "will" : 12
+      },
+      "l3" : {
+        "BAB" : 2,
+        "abilities" : [ "Still mind" ],
+        "fort" : 3,
+        "misc" : {
+          "AC bonus" : 0,
+          "Flurry of blows" : "-0/-0",
+          "Unarmed damage" : "1d6",
+          "Unarmored speed bonus" : 10
+        },
+        "ref" : 3,
+        "will" : 3
+      },
+      "l4" : {
+        "BAB" : 3,
+        "abilities" : [ "Ki strike(magic)", "Slow fall 20ft" ],
+        "fort" : 4,
+        "misc" : {
+          "AC bonus" : 0,
+          "Flurry of blows" : "1/1",
+          "Unarmed damage" : "1d8",
+          "Unarmored speed bonus" : 10
+        },
+        "ref" : 4,
+        "will" : 4
+      },
+      "l5" : {
+        "BAB" : 3,
+        "abilities" : [ "Purity of body" ],
+        "fort" : 4,
+        "misc" : {
+          "AC bonus" : 1,
+          "Flurry of blows" : "2/2",
+          "Unarmed damage" : "1d8",
+          "Unarmored speed bonus" : 10
+        },
+        "ref" : 4,
+        "will" : 4
+      },
+      "l6" : {
+        "BAB" : 4,
+        "abilities" : [ "Bonus monk feat", "Slow fall 30ft" ],
+        "fort" : 5,
+        "misc" : {
+          "AC bonus" : 0,
+          "Flurry of blows" : "3/3",
+          "Unarmed damage" : "1d8",
+          "Unarmored speed bonus" : 20
+        },
+        "ref" : 5,
+        "will" : 5
+      },
+      "l7" : {
+        "BAB" : 5,
+        "abilities" : [ "Wholeness of body" ],
+        "fort" : 5,
+        "misc" : {
+          "AC bonus" : 1,
+          "Flurry of blows" : "4/4",
+          "Unarmed damage" : "1d8",
+          "Unarmored speed bonus" : 20
+        },
+        "ref" : 5,
+        "will" : 5
+      },
+      "l8" : {
+        "BAB" : 6,
+        "abilities" : [ "Slow fall 40ft" ],
+        "fort" : 6,
+        "misc" : {
+          "AC bonus" : 1,
+          "Flurry of blows" : "5/5/0",
+          "Unarmed damage" : "1d10",
+          "Unarmored speed bonus" : 20
+        },
+        "ref" : 6,
+        "will" : 6
+      },
+      "l9" : {
+        "BAB" : 6,
+        "abilities" : [ "Improved evasion" ],
+        "fort" : 6,
+        "misc" : {
+          "AC bonus" : 1,
+          "Flurry of blows" : "6/6/1",
+          "Unarmed damage" : "1d10",
+          "Unarmored speed bonus" : 30
+        },
+        "ref" : 6,
+        "will" : 6
+      }
+    },
+    "misc" : [ "Armor penalties", "Cross class leveling penalties" ],
+    "name" : "Monk",
+    "psionicClass" : false,
+    "secondaryStat" : "Strength",
+    "skillPoints" : 4,
+    "spellCaster" : false,
+    "weaponArmorProficiency" : [ "Club", "Light crossbow", "Heavy crossbow", "Dagger", "Handaxe", "Javelin", "Kama", "Nunchaku", "Quarterstaff", "Sai", "Shuriken", "Siangham", "Sling" ]
+  },
+  "paladin" : {
+    "alignment" : "lawful good",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "concentration" : true,
+      "craft" : true,
+      "diplomacy" : true,
+      "handle_animal" : true,
+      "heal" : true,
+      "knowledge_nobility_and_royalty" : true,
+      "knowledge_religion" : true,
+      "profession" : true,
+      "ride" : true,
+      "survival" : true
+    },
+    "hitDice" : "d10",
+    "keyStat" : "Charisma",
+    "levels" : {
+      "l1" : {
+        "BAB" : 1,
+        "abilities" : [ "Aura of good", "Detect evil", "Smite evil 1/day" ],
+        "fort" : 2,
+        "ref" : 0,
+        "will" : 0
+      },
+      "l10" : {
+        "BAB" : 10,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Smite evil 3/day" ],
+        "fort" : 7,
+        "ref" : 3,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1
+        },
+        "will" : 3
+      },
+      "l11" : {
+        "BAB" : 11,
+        "fort" : 7,
+        "ref" : 3,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1,
+          "l3" : 0
+        },
+        "will" : 3
+      },
+      "l12" : {
+        "BAB" : 12,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Remove disease 3/week" ],
+        "fort" : 8,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l13" : {
+        "BAB" : 13,
+        "spellsKnown" : [ "All" ],
+        "fort" : 8,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l14" : {
+        "BAB" : 14,
+        "spellsKnown" : [ "All" ],
+        "fort" : 9,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 1,
+          "l3" : 1,
+          "l4" : 0
+        },
+        "will" : 4
+      },
+      "l15" : {
+        "BAB" : 15,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Remove disease 4/week", "Smite evil 4/day" ],
+        "fort" : 9,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 1,
+          "l3" : 1,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l16" : {
+        "BAB" : 16,
+        "spellsKnown" : [ "All" ],
+        "fort" : 10,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 2,
+          "l3" : 1,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l17" : {
+        "BAB" : 17,
+        "spellsKnown" : [ "All" ],
+        "fort" : 10,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 2,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l18" : {
+        "BAB" : 18,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Remove disease 5/week" ],
+        "fort" : 11,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 2,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 6
+      },
+      "l19" : {
+        "BAB" : 19,
+        "spellsKnown" : [ "All" ],
+        "fort" : 11,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 2
+        },
+        "will" : 6
+      },
+      "l2" : {
+        "BAB" : 2,
+        "abilities" : [ "Divine grace", "Lay on hands" ],
+        "fort" : 3,
+        "ref" : 0,
+        "will" : 0
+      },
+      "l20" : {
+        "BAB" : 20,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Smite evil 5/day" ],
+        "fort" : 12,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3
+        },
+        "will" : 6
+      },
+      "l3" : {
+        "BAB" : 3,
+        "abilities" : [ "Aura of courage", "Divine health" ],
+        "fort" : 3,
+        "ref" : 1,
+        "will" : 1
+      },
+      "l4" : {
+        "BAB" : 4,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Turn undead" ],
+        "fort" : 4,
+        "ref" : 1,
+        "spellCasting" : {
+          "l1" : 0
+        },
+        "will" : 1
+      },
+      "l5" : {
+        "BAB" : 5,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Smite evil 2/day", "Special mount" ],
+        "fort" : 4,
+        "ref" : 1,
+        "spellCasting" : {
+          "l1" : 0
+        },
+        "will" : 1
+      },
+      "l6" : {
+        "BAB" : 6,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Remove disease 1/week" ],
+        "fort" : 5,
+        "ref" : 2,
+        "spellCasting" : {
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l7" : {
+        "BAB" : 7,
+        "spellsKnown" : [ "All" ],
+        "fort" : 5,
+        "ref" : 2,
+        "spellCasting" : {
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l8" : {
+        "BAB" : 8,
+        "spellsKnown" : [ "All" ],
+        "fort" : 6,
+        "ref" : 2,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 0
+        },
+        "will" : 2
+      },
+      "l9" : {
+        "BAB" : 9,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Remove disease 2/week" ],
+        "fort" : 6,
+        "ref" : 3,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 0
+        },
+        "will" : 3
+      }
+    },
+    "misc" : [ "alignment penalties", "Cross class leveling penalties", "Mount" ],
+    "name" : "Paladin",
+    "psionicClass" : false,
+    "secondaryStat" : "Strength",
+    "skillPoints" : 2,
+    "spellCaster" : false,
+    "spells" : {
+      "levels" : {
+        "l1" : {
+          "bless" : true,
+          "bless_water" : true,
+          "bless_weapon" : true,
+          "create_water" : true,
+          "cure_light_wounds" : true,
+          "detect_poison" : true,
+          "detect_undead" : true,
+          "divine_favor" : true,
+          "endure_elements" : true,
+          "magic_weapon" : true,
+          "protection_for_evil" : true,
+          "protection_from_chaos" : true,
+          "read_magic" : true,
+          "resistance" : true,
+          "restoration_lesser" : true,
+          "virtue" : true
+        },
+        "l2" : {
+          "bulls_strength" : true,
+          "delay_poison" : true,
+          "eagles_splendor" : true,
+          "owls_wisdom" : true,
+          "remove_paralysis" : true,
+          "resist_energy" : true,
+          "shield_other" : true,
+          "undetectable_alignment" : true,
+          "zone_of_truth" : true
+        },
+        "l3" : {
+          "cure_moderate_wounds" : true,
+          "daylight" : true,
+          "discern_lies" : true,
+          "dispel_magic" : true,
+          "heal_mount" : true,
+          "magic_weapon_greater" : true,
+          "magic_circle_against_chaos" : true,
+          "magic_circle_against_evil" : true,
+          "prayer" : true,
+          "remove blindness_deafness" : true,
+          "remove_curse" : true
+        },
+        "l4" : {
+          "break_enchantment" : true,
+          "cure_serious_wounds" : true,
+          "death_ward" : true,
+          "dispel_chaos" : true,
+          "dispel_evil" : true,
+          "holy_sword" : true,
+          "mark_of_justice" : true,
+          "neutralize_poison" : true,
+          "restoration" : true
+        }
+      },
+      "type" : "divine"
+    },
+    "weaponArmorProficiency" : [ "Simple weapons", "Martial weapons", "Light armor", "Medium armor", "Heavy armor", "Basic shields" ]
+  },
+  "ranger" : {
+    "alignment" : "Good",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "climb" : true,
+      "concentration" : true,
+      "craft" : true,
+      "handle_animal" : true,
+      "heal" : true,
+      "hide" : true,
+      "jump" : true,
+      "knowledge_nature" : true,
+      "listen" : true,
+      "move_silently" : true,
+      "profession" : true,
+      "ride" : true,
+      "search" : true,
+      "spot" : true,
+      "survival" : true,
+      "swim" : true,
+      "use_rope" : true
+    },
+    "hitDice" : "d8",
+    "keyStat" : "Dexterity",
+    "levels" : {
+      "l1" : {
+        "BAB" : 1,
+        "abilities" : [ "Favored enemy (1st)", "Track", "Wild empathy" ],
+        "fort" : 2,
+        "ref" : 2,
+        "will" : 0
+      },
+      "l10" : {
+        "BAB" : 10,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Favored enemy (3rd)" ],
+        "fort" : 7,
+        "ref" : 7,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1
+        },
+        "will" : 3
+      },
+      "l11" : {
+        "BAB" : 11,
+        "abilities" : [ "Mastery combat style" ],
+        "fort" : 7,
+        "ref" : 7,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1,
+          "l3" : 0
+        },
+        "will" : 3
+      },
+      "l12" : {
+        "BAB" : 12,
+        "spellsKnown" : [ "All" ],
+        "fort" : 8,
+        "ref" : 8,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l13" : {
+        "BAB" : 13,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Camouflage" ],
+        "fort" : 8,
+        "ref" : 8,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 1,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l14" : {
+        "BAB" : 14,
+        "spellsKnown" : [ "All" ],
+        "fort" : 9,
+        "ref" : 9,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 1,
+          "l3" : 1,
+          "l4" : 0
+        },
+        "will" : 4
+      },
+      "l15" : {
+        "BAB" : 15,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Favored enemy (4th)" ],
+        "fort" : 9,
+        "ref" : 9,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 1,
+          "l3" : 1,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l16" : {
+        "BAB" : 16,
+        "spellsKnown" : [ "All" ],
+        "fort" : 10,
+        "ref" : 10,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 2,
+          "l3" : 1,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l17" : {
+        "BAB" : 17,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Hide in plain sight" ],
+        "fort" : 10,
+        "ref" : 10,
+        "spellCasting" : {
+          "l1" : 2,
+          "l2" : 2,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l18" : {
+        "BAB" : 18,
+        "spellsKnown" : [ "All" ],
+        "fort" : 11,
+        "ref" : 11,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 2,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 6
+      },
+      "l19" : {
+        "BAB" : 19,
+        "spellsKnown" : [ "All" ],
+        "fort" : 11,
+        "ref" : 11,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 2
+        },
+        "will" : 6
+      },
+      "l2" : {
+        "BAB" : 2,
+        "abilities" : [ "Combat style" ],
+        "fort" : 3,
+        "ref" : 3,
+        "will" : 0
+      },
+      "l20" : {
+        "BAB" : 20,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Favored enemy (5th)" ],
+        "fort" : 12,
+        "ref" : 12,
+        "spellCasting" : {
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 3
+        },
+        "will" : 6
+      },
+      "l3" : {
+        "BAB" : 3,
+        "abilities" : [ "Endurance" ],
+        "fort" : 3,
+        "ref" : 3,
+        "will" : 1
+      },
+      "l4" : {
+        "BAB" : 4,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Animal companion" ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 0
+        },
+        "will" : 1
+      },
+      "l5" : {
+        "BAB" : 5,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Favored enemy (2nd)" ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l1" : 0
+        },
+        "will" : 1
+      },
+      "l6" : {
+        "BAB" : 6,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Improved combat style" ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l7" : {
+        "BAB" : 7,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Woodland stride" ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l8" : {
+        "BAB" : 8,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Swift tracker" ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 0
+        },
+        "will" : 2
+      },
+      "l9" : {
+        "BAB" : 9,
+        "spellsKnown" : [ "All" ],
+        "abilities" : [ "Evasion" ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l1" : 1,
+          "l2" : 0
+        },
+        "will" : 3
+      }
+    },
+    "misc" : [ "Combat style", "Animal Companion", "Favored enemy" ],
+    "name" : "Ranger",
+    "psionicClass" : false,
+    "secondaryStat" : "Strength",
+    "skillPoints" : 2,
+    "spellCaster" : true,
+    "spells" : {
+      "levels" : {
+        "l1" : {
+          "alarm" : true,
+          "animal_messenger" : true,
+          "calm_animals" : true,
+          "charm_animal" : true,
+          "delay_poison" : true,
+          "detect_animal_or_plants" : true,
+          "detect_poison" : true,
+          "detect_snares_and_pits" : true,
+          "endure_elements" : true,
+          "entangle" : true,
+          "hide_from_animals" : true,
+          "jump" : true,
+          "longstrider" : true,
+          "magic_fang" : true,
+          "pass_without_trace" : true,
+          "read_magic" : true,
+          "resist_energy" : true,
+          "speak_with_animals" : true,
+          "summon_natures_ally_i" : true
+        },
+        "l2" : {
+          "barkskin" : true,
+          "bears_endurance" : true,
+          "cats_grace" : true,
+          "cure_light_wounds" : true,
+          "hold_animal" : true,
+          "owls_wisdom" : true,
+          "protection_from_energy" : true,
+          "snare" : true,
+          "speak_with_plants" : true,
+          "spike_growth" : true,
+          "summon_natures_ally_ii" : true,
+          "wind_wall" : true
+        },
+        "l3" : {
+          "command_plants" : true,
+          "cure_moderate_wounds" : true,
+          "darkvision" : true,
+          "diminish_plants" : true,
+          "magic_fang_greater" : true,
+          "neutralize_poison" : true,
+          "plant_growth" : true,
+          "reduce_animal" : true,
+          "remove_disease" : true,
+          "repel_vermin" : true,
+          "summon_natures_ally_iii" : true,
+          "tree_shape" : true,
+          "water_walk" : true
+        },
+        "l4" : {
+          "animal_growth" : true,
+          "commune_with_nature" : true,
+          "cure_serious_wounds" : true,
+          "freedom_of_movement" : true,
+          "nondetection" : true,
+          "summon_natures_ally_iv" : true,
+          "tree_stride" : true
+        }
+      },
+      "type" : "divine"
+    },
+    "weaponArmorProficiency" : [ "Simple weapons", "Martial weapons", "Light armor", "Medium armor", "Basic shields" ]
+  },
+  "rogue" : {
+    "alignment" : "Chaotic",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "appraise" : true,
+      "balance" : true,
+      "bluff" : true,
+      "climb" : true,
+      "craft" : true,
+      "decipher_script" : true,
+      "diplomacy" : true,
+      "disable_device" : true,
+      "disguise" : true,
+      "escape_artist" : true,
+      "forgery" : true,
+      "gather_information" : true,
+      "hide" : true,
+      "intimidate" : true,
+      "jump" : true,
+      "knowledge_local" : true,
+      "listen" : true,
+      "move_silently" : true,
+      "open_lock" : true,
+      "perform" : true,
+      "profession" : true,
+      "search" : true,
+      "sense_motive" : true,
+      "sleight_of_hand" : true,
+      "spot" : true,
+      "swim" : true,
+      "tumble" : true,
+      "use_magic_device" : true,
+      "use_rope" : true
+    },
+    "hitDice" : "d6",
+    "keyStat" : "Dexterity",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "abilities" : [ "Sneak attack 1d6", "Trapfinding" ],
+        "fort" : 0,
+        "ref" : 2,
+        "will" : 0
+      },
+      "l10" : {
+        "BAB" : 7,
+        "abilities" : [ "Special ability" ],
+        "fort" : 3,
+        "ref" : 7,
+        "will" : 3
+      },
+      "l11" : {
+        "BAB" : 8,
+        "abilities" : [ "Sneak attack 6d6" ],
+        "fort" : 3,
+        "ref" : 7,
+        "will" : 3
+      },
+      "l12" : {
+        "BAB" : 9,
+        "abilities" : [ "Trap sense +4" ],
+        "fort" : 4,
+        "ref" : 8,
+        "will" : 4
+      },
+      "l13" : {
+        "BAB" : 9,
+        "abilities" : [ "Sneak attack 7d6", "Special ability" ],
+        "fort" : 4,
+        "ref" : 8,
+        "will" : 4
+      },
+      "l14" : {
+        "BAB" : 10,
+        "fort" : 4,
+        "ref" : 9,
+        "will" : 4
+      },
+      "l15" : {
+        "BAB" : 11,
+        "abilities" : [ "Sneak attack 8d6", "Trap sense +5" ],
+        "fort" : 5,
+        "ref" : 9,
+        "will" : 5
+      },
+      "l16" : {
+        "BAB" : 12,
+        "abilities" : [ "Special ability" ],
+        "fort" : 5,
+        "ref" : 10,
+        "will" : 5
+      },
+      "l17" : {
+        "BAB" : 12,
+        "abilities" : [ "Sneak attack 9d6" ],
+        "fort" : 5,
+        "ref" : 10,
+        "will" : 5
+      },
+      "l18" : {
+        "BAB" : 13,
+        "abilities" : [ "Trap sense +6" ],
+        "fort" : 6,
+        "ref" : 11,
+        "will" : 6
+      },
+      "l19" : {
+        "BAB" : 14,
+        "abilities" : [ "Sneak attack 10d6", "Special ability" ],
+        "fort" : 6,
+        "ref" : 11,
+        "will" : 6
+      },
+      "l2" : {
+        "BAB" : 1,
+        "abilities" : [ "Evasion" ],
+        "fort" : 0,
+        "ref" : 3,
+        "will" : 0
+      },
+      "l20" : {
+        "BAB" : 15,
+        "fort" : 6,
+        "ref" : 12,
+        "will" : 6
+      },
+      "l3" : {
+        "BAB" : 2,
+        "abilities" : [ "Sneak attack 2d6", "Trap sense +1" ],
+        "fort" : 1,
+        "ref" : 3,
+        "will" : 1
+      },
+      "l4" : {
+        "BAB" : 3,
+        "abilities" : [ "Uncanny dodge" ],
+        "fort" : 1,
+        "ref" : 4,
+        "will" : 1
+      },
+      "l5" : {
+        "BAB" : 3,
+        "abilities" : [ "Sneak attack 3d6" ],
+        "fort" : 1,
+        "ref" : 4,
+        "will" : 1
+      },
+      "l6" : {
+        "BAB" : 4,
+        "abilities" : [ "Trap sense +2" ],
+        "fort" : 2,
+        "ref" : 5,
+        "will" : 2
+      },
+      "l7" : {
+        "BAB" : 5,
+        "abilities" : [ "Sneak attack 4d6" ],
+        "fort" : 2,
+        "ref" : 5,
+        "will" : 2
+      },
+      "l8" : {
+        "BAB" : 6,
+        "abilities" : [ "Improved uncanny dodge" ],
+        "fort" : 2,
+        "ref" : 6,
+        "will" : 2
+      },
+      "l9" : {
+        "BAB" : 6,
+        "abilities" : [ "Sneak attack 5d6", "Trap sense +3" ],
+        "fort" : 3,
+        "ref" : 6,
+        "will" : 3
+      }
+    },
+    "misc" : [ "Special ability" ],
+    "name" : "Rogue",
+    "psionicClass" : false,
+    "secondaryStat" : "Intelligence",
+    "skillPoints" : 6,
+    "spellCaster" : false,
+    "weaponArmorProficiency" : [ "Simple weapons", "Hand crossbow", "Short sword", "Light armor" ]
+  },
+  "sorcerer" : {
+    "alignment" : "Any",
+    "base" : true,
+    "bonusLanguages" : [ "None" ],
+    "classSkills" : {
+      "bluff" : true,
+      "concentration" : true,
+      "craft" : true,
+      "knowledge_arcana" : true,
+      "profession" : true,
+      "spellcraft" : true
+    },
+    "hitDice" : "d4",
+    "keyStat" : "Charisma",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "spellsKnown" : [ 4, 2 ],
+        "abilities" : [ "Summon familiar" ],
+        "fort" : 0,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 5,
+          "l1" : 3
+        },
+        "will" : 2
+      },
+      "l10" : {
+        "BAB" : 5,
+        "spellsKnown" : [ 9, 5, 4, 3, 2, 1 ],
+        "fort" : 3,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 5,
+          "l5" : 3
+        },
+        "will" : 7
+      },
+      "l11" : {
+        "BAB" : 5,
+        "spellsKnown" : [ 9, 5, 5, 4, 3, 2 ],
+        "fort" : 3,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 4
+        },
+        "will" : 7
+      },
+      "l12" : {
+        "BAB" : 6,
+        "spellsKnown" : [ 9, 5, 5, 4, 3, 2, 1 ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 5,
+          "l6" : 3
+        },
+        "will" : 8
+      },
+      "l13" : {
+        "BAB" : 6,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 3, 2 ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 4
+        },
+        "will" : 8
+      },
+      "l14" : {
+        "BAB" : 7,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 3, 2, 1 ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 5,
+          "l7" : 3
+        },
+        "will" : 9
+      },
+      "l15" : {
+        "BAB" : 7,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 4, 3, 2 ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 6,
+          "l7" : 4
+        },
+        "will" : 9
+      },
+      "l16" : {
+        "BAB" : 8,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 4, 3, 2, 1 ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 6,
+          "l7" : 5,
+          "l8" : 3
+        },
+        "will" : 10
+      },
+      "l17" : {
+        "BAB" : 8,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 4, 3, 3, 2 ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 6,
+          "l7" : 6,
+          "l8" : 4
+        },
+        "will" : 10
+      },
+      "l18" : {
+        "BAB" : 9,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 4, 3, 3, 3, 2 ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 6,
+          "l7" : 6,
+          "l8" : 5,
+          "l9" : 3
+        },
+        "will" : 11
+      },
+      "l19" : {
+        "BAB" : 9,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 4, 3, 3, 3, 2 ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 6,
+          "l7" : 6,
+          "l8" : 6,
+          "l9" : 4
+        },
+        "will" : 11
+      },
+      "l2" : {
+        "BAB" : 1,
+        "spellsKnown" : [ 5, 2 ],
+        "fort" : 0,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 4
+        },
+        "will" : 3
+      },
+      "l20" : {
+        "BAB" : 10,
+        "spellsKnown" : [ 9, 5, 5, 4, 4, 4, 3, 3, 3, 3 ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 6,
+          "l5" : 6,
+          "l6" : 6,
+          "l7" : 6,
+          "l8" : 6,
+          "l9" : 6
+        },
+        "will" : 12
+      },
+      "l3" : {
+        "BAB" : 1,
+        "spellsKnown" : [ 5, 3 ],
+        "fort" : 1,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 5
+        },
+        "will" : 3
+      },
+      "l4" : {
+        "BAB" : 2,
+        "spellsKnown" : [ 6, 3, 1 ],
+        "fort" : 1,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 3
+        },
+        "will" : 4
+      },
+      "l5" : {
+        "BAB" : 2,
+        "spellsKnown" : [ 6, 4, 2 ],
+        "fort" : 1,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 4
+        },
+        "will" : 4
+      },
+      "l6" : {
+        "BAB" : 3,
+        "spellsKnown" : [ 7, 4, 2, 1 ],
+        "fort" : 2,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 5,
+          "l3" : 3
+        },
+        "will" : 5
+      },
+      "l7" : {
+        "BAB" : 3,
+        "spellsKnown" : [ 7, 5, 3, 2 ],
+        "fort" : 2,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 4
+        },
+        "will" : 5
+      },
+      "l8" : {
+        "BAB" : 4,
+        "spellsKnown" : [ 8, 5, 3, 2, 1 ],
+        "fort" : 2,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 5,
+          "l4" : 3
+        },
+        "will" : 6
+      },
+      "l9" : {
+        "BAB" : 4,
+        "spellsKnown" : [ 8, 5, 4, 3, 2 ],
+        "fort" : 3,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 6,
+          "l1" : 6,
+          "l2" : 6,
+          "l3" : 6,
+          "l4" : 4
+        },
+        "will" : 6
+      }
+    },
+    "misc" : [ "Familiar" ],
+    "name" : "Sorcerer",
+    "psionicClass" : false,
+    "secondaryStat" : "Dexterity",
+    "skillPoints" : 2,
+    "spellCaster" : true,
+    "spells" : {
+      "levels" : {
+        "l0" : {
+          "acid_splash" : true,
+          "arcane_mark" : true,
+          "dancing_lights" : true,
+          "daze" : true,
+          "detect_magic" : true,
+          "detect_poison" : true,
+          "disrupt_undead" : true,
+          "flare" : true,
+          "ghost_sound" : true,
+          "light" : true,
+          "mage_hand" : true,
+          "mending" : true,
+          "message" : true,
+          "open_close" : true,
+          "prestidigitation" : true,
+          "ray_of_frost" : true,
+          "read_magic" : true,
+          "resistance" : true,
+          "touch_of_fatigue" : true
+        },
+        "l1" : {
+          "alarm" : true,
+          "animate_rope" : true,
+          "burning_hands" : true,
+          "cause_fear" : true,
+          "charm_person" : true,
+          "chill_touch" : true,
+          "color_spray" : true,
+          "comprehend_languages" : true,
+          "detect_secret_doors" : true,
+          "detect_undead" : true,
+          "disguise_self" : true,
+          "endure_elements" : true,
+          "enlarge_person" : true,
+          "erase" : true,
+          "expeditious_retreat" : true,
+          "feather_fall" : true,
+          "grease" : true,
+          "hold_portal" : true,
+          "hypnotism" : true,
+          "identify" : true,
+          "jump" : true,
+          "mage_armor" : true,
+          "magic_missile" : true,
+          "magic_weapon" : true,
+          "mount" : true,
+          "nystuls_magic_aura" : true,
+          "obscuring_mist" : true,
+          "protection from chaos_evil_good_law" : true,
+          "ray_of_enfeeblement" : true,
+          "reduce_person" : true,
+          "shield" : true,
+          "shocking_grasp" : true,
+          "silent_image" : true,
+          "sleep" : true,
+          "summon_monster_i" : true,
+          "tensers_floating_disk" : true,
+          "true_strike" : true,
+          "unseen_servant" : true,
+          "ventriloquism" : true
+        },
+        "l2" : {
+          "alter_self" : true,
+          "arcane_lock" : true,
+          "bears_endurance" : true,
+          "blindness_deafness" : true,
+          "blur" : true,
+          "bulls_strength" : true,
+          "cats_grace" : true,
+          "command_undead" : true,
+          "continual_flame" : true,
+          "darkness" : true,
+          "darkvision" : true,
+          "daze_monster" : true,
+          "detect_thoughts" : true,
+          "eagles_splendor" : true,
+          "false_life" : true,
+          "flaming_sphere" : true,
+          "fog_cloud" : true,
+          "foxs_cunning" : true,
+          "ghoul_touch" : true,
+          "glitterdust" : true,
+          "gust_of_wind" : true,
+          "hypnotic_pattern" : true,
+          "invisibility" : true,
+          "knock" : true,
+          "leomunds_trap" : true,
+          "levitate" : true,
+          "locate_object" : true,
+          "magic_mouth" : true,
+          "melfs_acid_arrow" : true,
+          "minor_image" : true,
+          "mirror_image" : true,
+          "misdirection" : true,
+          "obscure_object" : true,
+          "owls_wisdom" : true,
+          "protection_from_arrows" : true,
+          "pyrotechnics" : true,
+          "resist_energy" : true,
+          "rope_trick" : true,
+          "scare" : true,
+          "scorching_ray" : true,
+          "see_invisibility" : true,
+          "shatter" : true,
+          "spectral_hand" : true,
+          "spider_climb" : true,
+          "summon_monster_ii" : true,
+          "summon_swarm" : true,
+          "tashas_hideous_laughter" : true,
+          "touch_of_idiocy" : true,
+          "web" : true,
+          "whispering_wind" : true
+        },
+        "l3" : {
+          "arcane_sight" : true,
+          "blink" : true,
+          "clairaudience_clairvoyance" : true,
+          "daylight" : true,
+          "deep_slumber" : true,
+          "dispel_magic" : true,
+          "displacement" : true,
+          "explosive_runes" : true,
+          "fireball" : true,
+          "flame_arrow" : true,
+          "fly" : true,
+          "gaseous_form" : true,
+          "gentle_repose" : true,
+          "halt_undead" : true,
+          "haste" : true,
+          "heroism" : true,
+          "hold_person" : true,
+          "illusory_script" : true,
+          "invisibility_sphere" : true,
+          "keen_edge" : true,
+          "leomunds_tiny_hut" : true,
+          "lightning_bolt" : true,
+          "magic_weapon_greater" : true,
+          "magic_circle_against_chaos" : true,
+          "magic_circle_against_evil" : true,
+          "magic_circle_against_good" : true,
+          "magic_circle_against_law" : true,
+          "major_image" : true,
+          "nondetection" : true,
+          "phantom_steed" : true,
+          "protection_from_energy" : true,
+          "rage" : true,
+          "ray_of_exhaustion" : true,
+          "secret_page" : true,
+          "sepia_snake_sigil" : true,
+          "shrink_item" : true,
+          "sleet_storm" : true,
+          "slow" : true,
+          "stinking_cloud" : true,
+          "suggestion" : true,
+          "summon_monster_iii" : true,
+          "tongues" : true,
+          "vampiric_touch" : true,
+          "water_breathing" : true,
+          "wind_wall" : true
+        },
+        "l4" : {
+          "animate_dead" : true,
+          "arcane_eye" : true,
+          "bestow_curse" : true,
+          "charm_monster" : true,
+          "confusion" : true,
+          "contagion" : true,
+          "crushing_despair" : true,
+          "detect_scrying" : true,
+          "dimension_door" : true,
+          "dimensional_anchor" : true,
+          "enervation" : true,
+          "enlarge_person_mass" : true,
+          "evards_black_tentacles" : true,
+          "fear" : true,
+          "fire_shield" : true,
+          "fire_trap" : true,
+          "geas_lesser" : true,
+          "globe_of_invulnerability_lesser" : true,
+          "ice_storm" : true,
+          "invisibility_greater" : true,
+          "leomunds_secure_shelter" : true,
+          "locate_creature" : true,
+          "minor_creation" : true,
+          "otilukes_resilient_sphere" : true,
+          "phantasmal_killer" : true,
+          "polymorph" : true,
+          "rainbow_pattern" : true,
+          "rarys_mnemonic_enhancer" : true,
+          "reduce_person_mass" : true,
+          "remove_curse" : true,
+          "scrying" : true,
+          "shadow_conjuration" : true,
+          "shout" : true,
+          "solid_fog" : true,
+          "stone_shape" : true,
+          "stoneskin" : true,
+          "summon_monster_iv" : true,
+          "wall_of_fire" : true,
+          "wall_of_ice" : true
+        },
+        "l5" : {
+          "animal_growth" : true,
+          "baleful_polymorph" : true,
+          "bigbys_interposing_hand" : true,
+          "blight" : true,
+          "break_enchantment" : true,
+          "cloudkill" : true,
+          "cone_of_cold" : true,
+          "contact_other_plane" : true,
+          "dismissal" : true,
+          "dominate_person" : true,
+          "dream" : true,
+          "fabricate" : true,
+          "false_vision" : true,
+          "feeblemind" : true,
+          "hold_person" : true,
+          "leomunds_secret_chest" : true,
+          "magic_jar" : true,
+          "major_creation" : true,
+          "mind_fog" : true,
+          "mirage_arcana" : true,
+          "mordenkainens_faithful_hound" : true,
+          "mordenkainens_private_sanctum" : true,
+          "nightmare" : true,
+          "overland_flight" : true,
+          "passwall" : true,
+          "permanency" : true,
+          "persistent_image" : true,
+          "planar_binding_lesser" : true,
+          "prying_eyes" : true,
+          "rarys_telepathic_bond" : true,
+          "seeming" : true,
+          "sending" : true,
+          "shadow_evocation" : true,
+          "summon_monster_v" : true,
+          "symbol_of_pain" : true,
+          "symbol_of_sleep" : true,
+          "telekinesis" : true,
+          "teleport" : true,
+          "transmute_mud_to_rock" : true,
+          "transmute_rock_to_mud" : true,
+          "wall_of_force" : true,
+          "wall_of_stone" : true,
+          "waves_of_fatigue" : true
+        },
+        "l6" : {
+          "acid_fog" : true,
+          "analyze_dweomer" : true,
+          "antimagic_field" : true,
+          "bears_endurance_mass" : true,
+          "bigbys_forceful_hand" : true,
+          "cats_grace_mass" : true,
+          "chain_lightning" : true,
+          "circle_of_death" : true,
+          "contingency" : true,
+          "control_water" : true,
+          "create_undead" : true,
+          "disintegrate" : true,
+          "dispel_magic_greater" : true,
+          "eagles_splendor_mass" : true,
+          "eyebite" : true,
+          "flesh_to_stone" : true,
+          "foxs_cunning_mass" : true,
+          "geas_quest" : true,
+          "globe_of_invulnerability" : true,
+          "guards_and_wards" : true,
+          "heroism_greater" : true,
+          "legend_lore" : true,
+          "mislead" : true,
+          "mordenkainens_lucubration" : true,
+          "move_earth" : true,
+          "otilukes_freezing_sphere" : true,
+          "owls_wisdom_mass" : true,
+          "permanent_image" : true,
+          "planar_binding" : true,
+          "programmed_image" : true,
+          "repulsion" : true,
+          "shadow_walk" : true,
+          "stone_to_flesh" : true,
+          "suggestion_mass" : true,
+          "summon_monster_vi" : true,
+          "symbol_of_fear" : true,
+          "symbol_of_persuasion" : true,
+          "tensers_transformation" : true,
+          "true_seeing" : true,
+          "undeath_to_death" : true,
+          "veil" : true,
+          "wall_of_iron" : true
+        },
+        "l7" : {
+          "arcane_sight_greater" : true,
+          "banishment" : true,
+          "bigbys_grasping_hand" : true,
+          "control_undead" : true,
+          "control_weather" : true,
+          "delayed_blast_fireball" : true,
+          "drawmijs_instant_summons" : true,
+          "ethereal_jaunt" : true,
+          "finger_of_death" : true,
+          "forcecage" : true,
+          "hold_person_mass" : true,
+          "insanity" : true,
+          "invisibilty_mass" : true,
+          "limited_wish" : true,
+          "mordenkainens_magnicicent_mansion" : true,
+          "mordenkainens_sword" : true,
+          "phase_door" : true,
+          "plane_shift" : true,
+          "power_word_blind" : true,
+          "prismatic_spray" : true,
+          "project_image" : true,
+          "reverse_gravity" : true,
+          "scrying_greater" : true,
+          "sequester" : true,
+          "shadow_conjuration_greater" : true,
+          "simulacrum" : true,
+          "spell_turning" : true,
+          "statue" : true,
+          "summon_monster_vii" : true,
+          "symbol_of_stunning" : true,
+          "symbol_of_weakness" : true,
+          "teleport_greater" : true,
+          "teleport_object" : true,
+          "vision" : true,
+          "waves_of_exhaustion" : true
+        },
+        "l8" : {
+          "antipathy" : true,
+          "bigbys_clenched_fist" : true,
+          "binding" : true,
+          "charm_monster_greater" : true,
+          "charm_monster_mass" : true,
+          "clone" : true,
+          "create_greater_undead" : true,
+          "demand" : true,
+          "dimensional_lock" : true,
+          "discern_location" : true,
+          "horrid_wilting" : true,
+          "incendiary_cloud" : true,
+          "iron_body" : true,
+          "maze" : true,
+          "mind_blank" : true,
+          "moment_of_prescience" : true,
+          "otilukes_telekinetic_sphere" : true,
+          "ottos_irresistible_dance" : true,
+          "planar_binding_greater" : true,
+          "polar_ray" : true,
+          "polymorph_any_object" : true,
+          "power_word_stun" : true,
+          "prismatic_wall" : true,
+          "protection_from_spells" : true,
+          "prying_eyes_greater" : true,
+          "scintillating_pattern" : true,
+          "screen" : true,
+          "shadow_evocation_greater" : true,
+          "shout_greater" : true,
+          "summon_monster_viii" : true,
+          "sunburst" : true,
+          "symbol_of_death" : true,
+          "symbol_of_insanity" : true,
+          "sympathy" : true,
+          "temporal_statis" : true,
+          "trap_the_soul" : true
+        },
+        "l9" : {
+          "astral_projection" : true,
+          "bigbys_crushing_hand" : true,
+          "dominate_monster" : true,
+          "energy_drain" : true,
+          "etherealness" : true,
+          "foresight" : true,
+          "freedom" : true,
+          "gate" : true,
+          "hold_person_mass" : true,
+          "imprisonment" : true,
+          "meteor_swarm" : true,
+          "mordenkainens_disjunection" : true,
+          "power_word_kill" : true,
+          "prismatic_sphere" : true,
+          "refuge" : true,
+          "shades" : true,
+          "shapechange" : true,
+          "soul_bind" : true,
+          "summon_monster_ix" : true,
+          "telportation_circle" : true,
+          "time_stop" : true,
+          "wail_of_the_banshee" : true,
+          "weird" : true,
+          "wish" : true
+        }
+      },
+      "type" : "arcane"
+    },
+    "weaponArmorProficiency" : [ "Simple weapons" ]
+  },
+  "wizard" : {
+    "alignment" : "Lawful",
+    "base" : true,
+    "bonusLanguages" : [ "Draconic" ],
+    "classSkills" : {
+      "concentration" : true,
+      "craft" : true,
+      "decipher_script" : true,
+      "knowledge" : true,
+      "profession" : true,
+      "spellcraft" : true
+    },
+    "hitDice" : "d4",
+    "keyStat" : "Intelligence",
+    "levels" : {
+      "l1" : {
+        "BAB" : 0,
+        "spellsKnown" : [ 3 ],
+        "abilities" : [ "Summon familiar", "Scribe scroll" ],
+        "fort" : 0,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 3,
+          "l1" : 1
+        },
+        "will" : 2
+      },
+      "l10" : {
+        "BAB" : 5,
+        "spellsKnown" : [ 21 ],
+        "abilities" : [ "Bonus wizard feat" ],
+        "fort" : 3,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 3,
+          "l5" : 2
+        },
+        "will" : 7
+      },
+      "l11" : {
+        "BAB" : 5,
+        "spellsKnown" : [ 23 ],
+        "fort" : 3,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 2,
+          "l6" : 1
+        },
+        "will" : 7
+      },
+      "l12" : {
+        "BAB" : 6,
+        "spellsKnown" : [ 25 ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 3,
+          "l5" : 3,
+          "l6" : 2
+        },
+        "will" : 8
+      },
+      "l13" : {
+        "BAB" : 6,
+        "spellsKnown" : [ 27 ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 2,
+          "l7" : 1
+        },
+        "will" : 8
+      },
+      "l14" : {
+        "BAB" : 7,
+        "spellsKnown" : [ 29 ],
+        "fort" : 4,
+        "ref" : 4,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 3,
+          "l6" : 3,
+          "l7" : 2
+        },
+        "will" : 9
+      },
+      "l15" : {
+        "BAB" : 7,
+        "spellsKnown" : [ 31 ],
+        "abilities" : [ "Bonus wizard feat" ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 2,
+          "l8" : 1
+        },
+        "will" : 9
+      },
+      "l16" : {
+        "BAB" : 8,
+        "spellsKnown" : [ 33 ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 3,
+          "l7" : 3,
+          "l8" : 2
+        },
+        "will" : 10
+      },
+      "l17" : {
+        "BAB" : 8,
+        "spellsKnown" : [ 35 ],
+        "fort" : 5,
+        "ref" : 5,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3,
+          "l8" : 2,
+          "l9" : 1
+        },
+        "will" : 10
+      },
+      "l18" : {
+        "BAB" : 9,
+        "spellsKnown" : [ 37 ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 3,
+          "l8" : 3,
+          "l9" : 2
+        },
+        "will" : 11
+      },
+      "l19" : {
+        "BAB" : 9,
+        "spellsKnown" : [ 39 ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 4,
+          "l8" : 3,
+          "l9" : 3
+        },
+        "will" : 11
+      },
+      "l2" : {
+        "BAB" : 1,
+        "spellsKnown" : [ 5 ],
+        "fort" : 0,
+        "ref" : 0,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 2
+        },
+        "will" : 3
+      },
+      "l20" : {
+        "BAB" : 10,
+        "spellsKnown" : [ 41 ],
+        "abilities" : [ "Bonus wizard feat" ],
+        "fort" : 6,
+        "ref" : 6,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 4,
+          "l4" : 4,
+          "l5" : 4,
+          "l6" : 4,
+          "l7" : 4,
+          "l8" : 4,
+          "l9" : 4
+        },
+        "will" : 12
+      },
+      "l3" : {
+        "BAB" : 1,
+        "spellsKnown" : [ 7 ],
+        "fort" : 1,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 2,
+          "l2" : 1
+        },
+        "will" : 3
+      },
+      "l4" : {
+        "BAB" : 2,
+        "spellsKnown" : [ 9 ],
+        "fort" : 1,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 3,
+          "l2" : 2
+        },
+        "will" : 4
+      },
+      "l5" : {
+        "BAB" : 2,
+        "spellsKnown" : [ 11 ],
+        "abilities" : [ "Bonus wizard feat" ],
+        "fort" : 1,
+        "ref" : 1,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 3,
+          "l2" : 2,
+          "l3" : 1
+        },
+        "will" : 4
+      },
+      "l6" : {
+        "BAB" : 3,
+        "spellsKnown" : [ 13 ],
+        "fort" : 2,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 3,
+          "l2" : 3,
+          "l3" : 2
+        },
+        "will" : 5
+      },
+      "l7" : {
+        "BAB" : 3,
+        "spellsKnown" : [ 15 ],
+        "fort" : 2,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 2,
+          "l4" : 1
+        },
+        "will" : 5
+      },
+      "l8" : {
+        "BAB" : 4,
+        "spellsKnown" : [ 17 ],
+        "fort" : 2,
+        "ref" : 2,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 3,
+          "l3" : 3,
+          "l4" : 2
+        },
+        "will" : 6
+      },
+      "l9" : {
+        "BAB" : 4,
+        "spellsKnown" : [ 19 ],
+        "fort" : 3,
+        "ref" : 3,
+        "spellCasting" : {
+          "l0" : 4,
+          "l1" : 4,
+          "l2" : 4,
+          "l3" : 3,
+          "l4" : 2,
+          "l5" : 1
+        },
+        "will" : 6
+      }
+    },
+    "misc" : [ "Familiar", "Specialization" ],
+    "name" : "Wizard",
+    "psionicClass" : false,
+    "secondaryStat" : "Dexterity",
+    "skillPoints" : 2,
+    "spellCaster" : true,
+    "spells" : {
+      "levels" : {
+        "l0" : {
+          "acid_splash" : true,
+          "arcane_mark" : true,
+          "dancing_lights" : true,
+          "daze" : true,
+          "detect_magic" : true,
+          "detect_poison" : true,
+          "disrupt_undead" : true,
+          "flare" : true,
+          "ghost_sound" : true,
+          "light" : true,
+          "mage_hand" : true,
+          "mending" : true,
+          "message" : true,
+          "open_close" : true,
+          "prestidigitation" : true,
+          "ray_of_frost" : true,
+          "read_magic" : true,
+          "resistance" : true,
+          "touch_of_fatigue" : true
+        },
+        "l1" : {
+          "alarm" : true,
+          "animate_rope" : true,
+          "burning_hands" : true,
+          "cause_fear" : true,
+          "charm_person" : true,
+          "chill_touch" : true,
+          "color_spray" : true,
+          "comprehend_languages" : true,
+          "detect_secret_doors" : true,
+          "detect_undead" : true,
+          "disguise_self" : true,
+          "endure_elements" : true,
+          "enlarge_person" : true,
+          "erase" : true,
+          "expeditious_retreat" : true,
+          "feather_fall" : true,
+          "grease" : true,
+          "hold_portal" : true,
+          "hypnotism" : true,
+          "identify" : true,
+          "jump" : true,
+          "mage_armor" : true,
+          "magic_missile" : true,
+          "magic_weapon" : true,
+          "mount" : true,
+          "nystuls_magic_aura" : true,
+          "obscuring_mist" : true,
+          "protection from chaos_evil_good_law" : true,
+          "ray_of_enfeeblement" : true,
+          "reduce_person" : true,
+          "shield" : true,
+          "shocking_grasp" : true,
+          "silent_image" : true,
+          "sleep" : true,
+          "summon_monster_i" : true,
+          "tensers_floating_disk" : true,
+          "true_strike" : true,
+          "unseen_servant" : true,
+          "ventriloquism" : true
+        },
+        "l2" : {
+          "alter_self" : true,
+          "arcane_lock" : true,
+          "bears_endurance" : true,
+          "blindness_deafness" : true,
+          "blur" : true,
+          "bulls_strength" : true,
+          "cats_grace" : true,
+          "command_undead" : true,
+          "continual_flame" : true,
+          "darkness" : true,
+          "darkvision" : true,
+          "daze_monster" : true,
+          "detect_thoughts" : true,
+          "eagles_splendor" : true,
+          "false_life" : true,
+          "flaming_sphere" : true,
+          "fog_cloud" : true,
+          "foxs_cunning" : true,
+          "ghoul_touch" : true,
+          "glitterdust" : true,
+          "gust_of_wind" : true,
+          "hypnotic_pattern" : true,
+          "invisibility" : true,
+          "knock" : true,
+          "leomunds_trap" : true,
+          "levitate" : true,
+          "locate_object" : true,
+          "magic_mouth" : true,
+          "melfs_acid_arrow" : true,
+          "minor_image" : true,
+          "mirror_image" : true,
+          "misdirection" : true,
+          "obscure_object" : true,
+          "owls_wisdom" : true,
+          "protection_from_arrows" : true,
+          "pyrotechnics" : true,
+          "resist_energy" : true,
+          "rope_trick" : true,
+          "scare" : true,
+          "scorching_ray" : true,
+          "see_invisibility" : true,
+          "shatter" : true,
+          "spectral_hand" : true,
+          "spider_climb" : true,
+          "summon_monster_ii" : true,
+          "summon_swarm" : true,
+          "tashas_hideous_laughter" : true,
+          "touch_of_idiocy" : true,
+          "web" : true,
+          "whispering_wind" : true
+        },
+        "l3" : {
+          "arcane_sight" : true,
+          "blink" : true,
+          "clairaudience_clairvoyance" : true,
+          "daylight" : true,
+          "deep_slumber" : true,
+          "dispel_magic" : true,
+          "displacement" : true,
+          "explosive_runes" : true,
+          "fireball" : true,
+          "flame_arrow" : true,
+          "fly" : true,
+          "gaseous_form" : true,
+          "gentle_repose" : true,
+          "halt_undead" : true,
+          "haste" : true,
+          "heroism" : true,
+          "hold_person" : true,
+          "illusory_script" : true,
+          "invisibility_sphere" : true,
+          "keen_edge" : true,
+          "leomunds_tiny_hut" : true,
+          "lightning_bolt" : true,
+          "magic_weapon_greater" : true,
+          "magic_circle_against_chaos" : true,
+          "magic_circle_against_evil" : true,
+          "magic_circle_against_good" : true,
+          "magic_circle_against_law" : true,
+          "major_image" : true,
+          "nondetection" : true,
+          "phantom_steed" : true,
+          "protection_from_energy" : true,
+          "rage" : true,
+          "ray_of_exhaustion" : true,
+          "secret_page" : true,
+          "sepia_snake_sigil" : true,
+          "shrink_item" : true,
+          "sleet_storm" : true,
+          "slow" : true,
+          "stinking_cloud" : true,
+          "suggestion" : true,
+          "summon_monster_iii" : true,
+          "tongues" : true,
+          "vampiric_touch" : true,
+          "water_breathing" : true,
+          "wind_wall" : true
+        },
+        "l4" : {
+          "animate_dead" : true,
+          "arcane_eye" : true,
+          "bestow_curse" : true,
+          "charm_monster" : true,
+          "confusion" : true,
+          "contagion" : true,
+          "crushing_despair" : true,
+          "detect_scrying" : true,
+          "dimension_door" : true,
+          "dimensional_anchor" : true,
+          "enervation" : true,
+          "enlarge_person_mass" : true,
+          "evards_black_tentacles" : true,
+          "fear" : true,
+          "fire_shield" : true,
+          "fire_trap" : true,
+          "geas_lesser" : true,
+          "globe_of_invulnerability_lesser" : true,
+          "ice_storm" : true,
+          "invisibility_greater" : true,
+          "leomunds_secure_shelter" : true,
+          "locate_creature" : true,
+          "minor_creation" : true,
+          "otilukes_resilient_sphere" : true,
+          "phantasmal_killer" : true,
+          "polymorph" : true,
+          "rainbow_pattern" : true,
+          "rarys_mnemonic_enhancer" : true,
+          "reduce person_mass" : true,
+          "remove_curse" : true,
+          "scrying" : true,
+          "shadow_conjuration" : true,
+          "shout" : true,
+          "solid_fog" : true,
+          "stone_shape" : true,
+          "stoneskin" : true,
+          "summon_monster_iv" : true,
+          "wall_of_fire" : true,
+          "wall_of_ice" : true
+        },
+        "l5" : {
+          "animal_growth" : true,
+          "baleful_polymorph" : true,
+          "bigbys_interposing_hand" : true,
+          "blight" : true,
+          "break_enchantment" : true,
+          "cloudkill" : true,
+          "cone_of_cold" : true,
+          "contact_other_plane" : true,
+          "dismissal" : true,
+          "dominate_person" : true,
+          "dream" : true,
+          "fabricate" : true,
+          "false_vision" : true,
+          "feeblemind" : true,
+          "hold_person" : true,
+          "leomunds_secret_chest" : true,
+          "magic_jar" : true,
+          "major_creation" : true,
+          "mind_fog" : true,
+          "mirage_arcana" : true,
+          "mordenkainens_faithful_hound" : true,
+          "mordenkainens_private_sanctum" : true,
+          "nightmare" : true,
+          "overland_flight" : true,
+          "passwall" : true,
+          "permanency" : true,
+          "persistent_image" : true,
+          "planar_binding_lesser" : true,
+          "prying_eyes" : true,
+          "rarys_telepathic_bond" : true,
+          "seeming" : true,
+          "sending" : true,
+          "shadow_evocation" : true,
+          "summon_monster_v" : true,
+          "symbol_of_pain" : true,
+          "symbol_of_sleep" : true,
+          "telekinesis" : true,
+          "teleport" : true,
+          "transmute_mud_to_rock" : true,
+          "transmute_rock_to_mud" : true,
+          "wall_of_force" : true,
+          "wall_of_stone" : true,
+          "waves_of_fatigue" : true
+        },
+        "l6" : {
+          "acid_fog" : true,
+          "analyze_dweomer" : true,
+          "antimagic_field" : true,
+          "bears_endurance_mass" : true,
+          "bigbys_forceful_hand" : true,
+          "cats_grace_mass" : true,
+          "chain_lightning" : true,
+          "circle_of_death" : true,
+          "contingency" : true,
+          "control_water" : true,
+          "create_undead" : true,
+          "disintegrate" : true,
+          "dispel_magic_greater" : true,
+          "eagles_splendor_mass" : true,
+          "eyebite" : true,
+          "flesh_to_stone" : true,
+          "foxs_cunning_mass" : true,
+          "geas_quest" : true,
+          "globe_of_invulnerability" : true,
+          "guards_and_wards" : true,
+          "heroism_greater" : true,
+          "legend_lore" : true,
+          "mislead" : true,
+          "mordenkainens_lucubration" : true,
+          "move_earth" : true,
+          "otilukes_freezing_sphere" : true,
+          "owls_wisdom_mass" : true,
+          "permanent_image" : true,
+          "planar_binding" : true,
+          "programmed_image" : true,
+          "repulsion" : true,
+          "shadow_walk" : true,
+          "stone_to_flesh" : true,
+          "suggestion_mass" : true,
+          "summon_monster_vi" : true,
+          "symbol_of_fear" : true,
+          "symbol_of_persuasion" : true,
+          "tensers_transformation" : true,
+          "true_seeing" : true,
+          "undeath_to_death" : true,
+          "veil" : true,
+          "wall_of_iron" : true
+        },
+        "l7" : {
+          "arcane_sight_greater" : true,
+          "banishment" : true,
+          "bigbys_grasping_hand" : true,
+          "control_undead" : true,
+          "control_weather" : true,
+          "delayed_blast_fireball" : true,
+          "drawmijs_instant_summons" : true,
+          "ethereal_jaunt" : true,
+          "finger_of_death" : true,
+          "forcecage" : true,
+          "hold_person_mass" : true,
+          "insanity" : true,
+          "invisibilty_mass" : true,
+          "limited_wish" : true,
+          "mordenkainens_magnicicent_mansion" : true,
+          "mordenkainens_sword" : true,
+          "phase_door" : true,
+          "plane_shift" : true,
+          "power_word_blind" : true,
+          "prismatic_spray" : true,
+          "project_image" : true,
+          "reverse_gravity" : true,
+          "scrying_greater" : true,
+          "sequester" : true,
+          "shadow_conjuration_greater" : true,
+          "simulacrum" : true,
+          "spell_turning" : true,
+          "statue" : true,
+          "summon_monster_vii" : true,
+          "symbol_of_stunning" : true,
+          "symbol_of_weakness" : true,
+          "teleport_greater" : true,
+          "teleport_object" : true,
+          "vision" : true,
+          "waves_of_exhaustion" : true
+        },
+        "l8" : {
+          "antipathy" : true,
+          "bigbys_clenched_fist" : true,
+          "binding" : true,
+          "charm_monster_greater" : true,
+          "charm_monster_mass" : true,
+          "clone" : true,
+          "create_greater_undead" : true,
+          "demand" : true,
+          "dimensional_lock" : true,
+          "discern_location" : true,
+          "horrid_wilting" : true,
+          "incendiary_cloud" : true,
+          "iron_body" : true,
+          "maze" : true,
+          "mind_blank" : true,
+          "moment_of_prescience" : true,
+          "otilukes_telekinetic_sphere" : true,
+          "ottos_irresistible_dance" : true,
+          "planar_binding_greater" : true,
+          "polar_ray" : true,
+          "polymorph_any_object" : true,
+          "power_word_stun" : true,
+          "prismatic_wall" : true,
+          "protection_from_spells" : true,
+          "prying_eyes_greater" : true,
+          "scintillating_pattern" : true,
+          "screen" : true,
+          "shadow_evocation_greater" : true,
+          "shout_greater" : true,
+          "summon_monster_viii" : true,
+          "sunburst" : true,
+          "symbol_of_death" : true,
+          "symbol_of_insanity" : true,
+          "sympathy" : true,
+          "temporal_statis" : true,
+          "trap_the_soul" : true
+        },
+        "l9" : {
+          "astral_projection" : true,
+          "bigbys_crushing_hand" : true,
+          "dominate_monster" : true,
+          "energy_drain" : true,
+          "etherealness" : true,
+          "foresight" : true,
+          "freedom" : true,
+          "gate" : true,
+          "hold_person_mass" : true,
+          "imprisonment" : true,
+          "meteor_swarm" : true,
+          "mordenkainens_disjunection" : true,
+          "power_word_kill" : true,
+          "prismatic_sphere" : true,
+          "refuge" : true,
+          "shades" : true,
+          "shapechange" : true,
+          "soul_bind" : true,
+          "summon_monster_ix" : true,
+          "telportation_circle" : true,
+          "time_stop" : true,
+          "wail_of_the_banshee" : true,
+          "weird" : true,
+          "wish" : true
+        }
+      },
+      "type" : "arcane"
+    },
+    "weaponArmorProficiency" : [ "Club", "Dagger", "Heavy crossbow", "Light crossbow", "Quarterstaff" ]
+  }
+}

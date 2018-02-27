@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.dgtalize.dndcharmanager.ui.fragment.InvitesListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dgtalize.dndcharmanager.ui.fragment.InvitesListFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:clipToPadding="false"
+            android:paddingBottom="54dp"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/fragment_gameinvite_list_item" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="critical">
+        <item>x2</item>
+        <item>x3</item>
+        <item>x4</item>
+        <item>×3/×4</item>
+        <item>19–20/×2</item>
+        <item>18–20/×2</item>
+    </string-array>
+    <string-array name="damage">
+        <item>1</item>
+        <item>1d2</item>
+        <item>1d3</item>
+        <item>1d4</item>
+        <item>1d6</item>
+        <item>1d8</item>
+        <item>1d10</item>
+        <item>2d4</item>
+        <item>2d6</item>
+        <item>1d4/1d4</item>
+        <item>1d6/1d6</item>
+        <item>1d8/1d8</item>
+    </string-array>
+</resources>
