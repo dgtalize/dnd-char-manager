@@ -19,6 +19,8 @@ Character Features:
 - money
 - notes
 
+Android Play Store: https://play.google.com/store/apps/details?id=com.dgtalize.dndcharmanager
+
 Let me know what you think:
 - Twitter: [@dgtalize](https://twitter.com/dgtalize)
 - Facebook: [DGtalize](https://www.facebook.com/dgtalize)
